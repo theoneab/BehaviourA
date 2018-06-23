@@ -126,6 +126,9 @@
         case 11001: // WKWebView
             controller = [[WKWebViewController alloc] init];
             break;
+        case 11111: // WKWebView
+            controller = [[WKWebViewController alloc] init];
+            break;
         default:
             break;
     }
