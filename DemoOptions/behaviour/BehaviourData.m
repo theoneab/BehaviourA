@@ -69,9 +69,10 @@
     data.children = [[NSMutableArray alloc]init];
     
     dispatch_group_t group = dispatch_group_create();
-    [data.allLogData enumerateObjectsUsingBlock:^(LogdataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    for(NSInteger i = 0,j = data.allLogData.count; i< j;i++){
+        LogdataModel *obj = data.allLogData[i];
         dispatch_group_enter(group);
-        dispatch_group_async(group, dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             [BHDataRequest getLogData:obj.logid requestCallback:^(id  _Nullable responseObject, NSError *error) {
                 NSArray<LogdataModel *> *nextPages = [LogdataModel mj_objectArrayWithKeyValuesArray:responseObject[@"data"][@"actions"]];
                 if (nextPages.count > 0){
@@ -80,11 +81,28 @@
                 dispatch_group_leave(group);
             }];
         });
-    }];
+    }
     
-    [data.children enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [BehaviourData queryAndNextPage:obj];
-    }];
+    dispatch_group_notify(group, dispatch_get_main_queue(), ^{
+        [data.children enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            [BehaviourData queryAndNextPage:obj];
+        }];
+    });
+//    [data.allLogData enumerateObjectsUsingBlock:^(LogdataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        dispatch_group_enter(group);
+//        dispatch_group_async(group, dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//            [BHDataRequest getLogData:obj.logid requestCallback:^(id  _Nullable responseObject, NSError *error) {
+//                NSArray<LogdataModel *> *nextPages = [LogdataModel mj_objectArrayWithKeyValuesArray:responseObject[@"data"][@"actions"]];
+//                if (nextPages.count > 0){
+//                    [BehaviourData haveExsitPage:data.children logdata:nextPages[0]];
+//                }
+//                dispatch_group_leave(group);
+//                if (idx == data.allLogData.count - 1){
+//
+//                }
+//            }];
+//        });
+//    }];
 }
 
 +(void)haveExsitPage:(NSArray<TreeDataModel *> *)arr logdata:(LogdataModel *)logdata{

@@ -30,8 +30,10 @@
         //进度
         //进度
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"success");
         requestCallback(responseObject,nil);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"failure");
         requestCallback(nil,error);
     }];
 }
