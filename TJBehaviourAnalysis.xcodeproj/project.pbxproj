@@ -991,7 +991,11 @@
 				TargetAttributes = {
 					6C4216751B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
+<<<<<<< Updated upstream
 						DevelopmentTeam = Q6ECRP6F64;
+=======
+						DevelopmentTeam = FP7CJ8SJ7F;
+>>>>>>> Stashed changes
 					};
 					6C42168E1B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
@@ -1438,7 +1442,11 @@
 			baseConfigurationReference = 1605381286955E0A91977743 /* Pods-TJBehaviourAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< Updated upstream
 				DEVELOPMENT_TEAM = Q6ECRP6F64;
+=======
+				DEVELOPMENT_TEAM = FP7CJ8SJ7F;
+>>>>>>> Stashed changes
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1454,7 +1462,11 @@
 			baseConfigurationReference = 80AD0D35A1FF1EBF3721DFD4 /* Pods-TJBehaviourAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< Updated upstream
 				DEVELOPMENT_TEAM = Q6ECRP6F64;
+=======
+				DEVELOPMENT_TEAM = FP7CJ8SJ7F;
+>>>>>>> Stashed changes
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

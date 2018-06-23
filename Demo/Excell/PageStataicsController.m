@@ -40,7 +40,7 @@
 - (void)setupMembers {
     
     self.dates = @[@"7/10/2017", @"7/11/2017", @"7/12/2017", @"7/13/2017", @"7/14/2017", @"7/15/2017", @"7/16/2017"];
-    self.days  = @[@"MONDAY", @"TUESDAY", @"WEDNSDAY", @"THURSDAY", @"FRIDAY", @"SATURDAY", @"SUNDAY"];
+    self.days  = @[@"访问页面", @"访问页面备注名称", @"访问次数", @"访问次数占比", @"次均停留时间", @"停留时间占比", @"退出率", @"入口页次数", @"退出页次数"];
     self.dayColors = @[ [UIColor colorWithRed:0.918 green:0.224 blue:0.153 alpha:1],
                         [UIColor colorWithRed:0.106 green:0.541 blue:0.827 alpha:1],
                         [UIColor colorWithRed:0.200 green:0.620 blue:0.565 alpha:1],
