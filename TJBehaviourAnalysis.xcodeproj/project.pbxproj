@@ -200,9 +200,9 @@
 		6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */; };
 		9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345020DDF84200E0C144 /* ZMJCells.m */; };
 		9E75345420DDF84200E0C144 /* PageStataicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345220DDF84200E0C144 /* PageStataicsController.m */; };
-		B71EE62720DE205000AD1A7B /* BHDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62620DE205000AD1A7B /* BHDataRequest.m */; };
-		B71EE62A20DE213000AD1A7B /* LogdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62920DE213000AD1A7B /* LogdataModel.m */; };
-		B7BE552720DE164100DDDBB9 /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE552520DE164100DDDBB9 /* BehaviourData.m */; };
+		B71EE63420DE314E00AD1A7B /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62E20DE314E00AD1A7B /* BehaviourData.m */; };
+		B71EE63520DE314E00AD1A7B /* LogdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62F20DE314E00AD1A7B /* LogdataModel.m */; };
+		B71EE63620DE314E00AD1A7B /* BHDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE63020DE314E00AD1A7B /* BHDataRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -462,12 +462,12 @@
 		9E75345020DDF84200E0C144 /* ZMJCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMJCells.m; sourceTree = "<group>"; };
 		9E75345120DDF84200E0C144 /* ZMJCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMJCells.h; sourceTree = "<group>"; };
 		9E75345220DDF84200E0C144 /* PageStataicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageStataicsController.m; sourceTree = "<group>"; };
-		B71EE62520DE205000AD1A7B /* BHDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHDataRequest.h; sourceTree = "<group>"; };
-		B71EE62620DE205000AD1A7B /* BHDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHDataRequest.m; sourceTree = "<group>"; };
-		B71EE62820DE213000AD1A7B /* LogdataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogdataModel.h; sourceTree = "<group>"; };
-		B71EE62920DE213000AD1A7B /* LogdataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogdataModel.m; sourceTree = "<group>"; };
-		B7BE552520DE164100DDDBB9 /* BehaviourData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BehaviourData.m; sourceTree = "<group>"; };
-		B7BE552620DE164100DDDBB9 /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
+		B71EE62E20DE314E00AD1A7B /* BehaviourData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BehaviourData.m; sourceTree = "<group>"; };
+		B71EE62F20DE314E00AD1A7B /* LogdataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogdataModel.m; sourceTree = "<group>"; };
+		B71EE63020DE314E00AD1A7B /* BHDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHDataRequest.m; sourceTree = "<group>"; };
+		B71EE63120DE314E00AD1A7B /* LogdataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogdataModel.h; sourceTree = "<group>"; };
+		B71EE63220DE314E00AD1A7B /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
+		B71EE63320DE314E00AD1A7B /* BHDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDataRequest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,6 +526,7 @@
 				6C4216771B98E310002D4B7A /* Products */,
 				5429926A1E1621F60082986D /* Frameworks */,
 				24AA0A3E192C5EE8BD9556DB /* Pods */,
+				B71EE62C20DE30FA00AD1A7B /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -868,6 +869,7 @@
 		6F9DCF381D7842FF007CEAD2 /* DemoOptions */ = {
 			isa = PBXGroup;
 			children = (
+				B71EE62D20DE314E00AD1A7B /* behaviour */,
 				6F743AD81D7C6C2B00C94967 /* PYBarDemoOptions.h */,
 				6F743AD91D7C6C2B00C94967 /* PYBarDemoOptions.m */,
 				6F65DC121D820E2200950EC5 /* PYCandlestickDemoOptions.h */,
@@ -917,15 +919,22 @@
 			path = Excell;
 			sourceTree = "<group>";
 		};
-		B7BE552420DE164100DDDBB9 /* behaviour */ = {
+		B71EE62C20DE30FA00AD1A7B /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				B7BE552620DE164100DDDBB9 /* BehaviourData.h */,
-				B7BE552520DE164100DDDBB9 /* BehaviourData.m */,
-				B71EE62520DE205000AD1A7B /* BHDataRequest.h */,
-				B71EE62620DE205000AD1A7B /* BHDataRequest.m */,
-				B71EE62820DE213000AD1A7B /* LogdataModel.h */,
-				B71EE62920DE213000AD1A7B /* LogdataModel.m */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		B71EE62D20DE314E00AD1A7B /* behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				B71EE62E20DE314E00AD1A7B /* BehaviourData.m */,
+				B71EE62F20DE314E00AD1A7B /* LogdataModel.m */,
+				B71EE63020DE314E00AD1A7B /* BHDataRequest.m */,
+				B71EE63120DE314E00AD1A7B /* LogdataModel.h */,
+				B71EE63220DE314E00AD1A7B /* BehaviourData.h */,
+				B71EE63320DE314E00AD1A7B /* BHDataRequest.h */,
 			);
 			path = behaviour;
 			sourceTree = "<group>";
@@ -942,6 +951,7 @@
 				6C4216731B98E310002D4B7A /* Frameworks */,
 				6C4216741B98E310002D4B7A /* Resources */,
 				239DA69C7C79A7987A27208D /* [CP] Embed Pods Frameworks */,
+				2C7EC29ADCA21CB6FF65157B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -999,7 +1009,7 @@
 				TargetAttributes = {
 					6C4216751B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = FP7CJ8SJ7F;
+						DevelopmentTeam = Q6ECRP6F64;
 					};
 					6C42168E1B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
@@ -1106,6 +1116,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TJBehaviourAnalysis/Pods-TJBehaviourAnalysis-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2C7EC29ADCA21CB6FF65157B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TJBehaviourAnalysis/Pods-TJBehaviourAnalysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D44FC2A8C0E8AB8AF20B61C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1121,7 +1146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1139,8 +1164,8 @@
 				6F9DCF131D7841D6007CEAD2 /* ForceDemoController.m in Sources */,
 				6F4D58EE1D4FE34F00246943 /* PYLoadingOption.m in Sources */,
 				6F4D59031D4FE34F00246943 /* PYMapSeries.m in Sources */,
-				B71EE62A20DE213000AD1A7B /* LogdataModel.m in Sources */,
 				6F9DCF341D7841D6007CEAD2 /* NSObject+RMCopyable.m in Sources */,
+				B71EE63420DE314E00AD1A7B /* BehaviourData.m in Sources */,
 				6FEFF6F01D564D5C00E8B77E /* PYChordStyle.m in Sources */,
 				6F9DCF241D7841D6007CEAD2 /* RadarDemoController.m in Sources */,
 				6F9DCF2A1D7841D6007CEAD2 /* TreemapDemoController.m in Sources */,
@@ -1176,6 +1201,7 @@
 				542992691E161CA50082986D /* WKEchartsView.m in Sources */,
 				6F4D58EA1D4FE34F00246943 /* PYLegend.m in Sources */,
 				6F4D590F1D4FE34F00246943 /* PYJsonUtil.m in Sources */,
+				B71EE63520DE314E00AD1A7B /* LogdataModel.m in Sources */,
 				6F9DCF221D7841D6007CEAD2 /* PieDemoController.m in Sources */,
 				6F4D59041D4FE34F00246943 /* PYMarkLine.m in Sources */,
 				6F9DCF1C1D7841D6007CEAD2 /* MapDemoController.m in Sources */,
@@ -1185,6 +1211,7 @@
 				9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */,
 				6F09E9D91D6CD106006A76CD /* PYChordSeries.m in Sources */,
 				6F4D58F51D4FE34F00246943 /* PYSplitArea.m in Sources */,
+				B71EE63620DE314E00AD1A7B /* BHDataRequest.m in Sources */,
 				6F9DCF191D7841D6007CEAD2 /* LineDemoController.m in Sources */,
 				6F4D58E01D4FE34F00246943 /* PYAxisTick.m in Sources */,
 				6F4D59091D4FE34F00246943 /* PYTreeMapSeries.m in Sources */,
@@ -1206,7 +1233,6 @@
 				6F4D59021D4FE34F00246943 /* PYHeatmapSeries.m in Sources */,
 				6F4D58DD1D4FE34F00246943 /* PYAxisLabel.m in Sources */,
 				6F9DCF0F1D7841D6007CEAD2 /* ChordDemoController.m in Sources */,
-				B71EE62720DE205000AD1A7B /* BHDataRequest.m in Sources */,
 				6F4D58EF1D4FE34F00246943 /* PYNoDataLoadingOption.m in Sources */,
 				6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */,
 				6F9DCF171D7841D6007CEAD2 /* GaugesDemoController.m in Sources */,
@@ -1432,7 +1458,7 @@
 			baseConfigurationReference = 1605381286955E0A91977743 /* Pods-TJBehaviourAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FP7CJ8SJ7F;
+				DEVELOPMENT_TEAM = Q6ECRP6F64;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1448,7 +1474,7 @@
 			baseConfigurationReference = 80AD0D35A1FF1EBF3721DFD4 /* Pods-TJBehaviourAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FP7CJ8SJ7F;
+				DEVELOPMENT_TEAM = Q6ECRP6F64;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
