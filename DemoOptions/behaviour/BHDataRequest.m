@@ -24,25 +24,42 @@
 }
 
 +(void)getLogData:(NSString *)logid requestCallback:(RequestCallback)requestCallback{
-    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
-    AFHTTPSessionManager *manager =[AFHTTPSessionManager manager];
-    //http://10.2.50.110:5000/refactions/167b1e1a-177a-41c2-b160-96a572f75464
-    [manager GET:[[NSString alloc]initWithFormat:@"http://10.2.50.110:5000/refactions/%@",logid]  parameters:@{} progress:^(NSProgress * _Nonnull downloadProgress) {
-        //进度
-        //进度
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"success");
-        dispatch_semaphore_signal(semaphore);
-        requestCallback(responseObject,nil);
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"failure");
-        dispatch_semaphore_signal(semaphore);
-        requestCallback(nil,error);
-    }];
-    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
+//    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+//    
+//   
+//    AFHTTPSessionManager *manager =[AFHTTPSessionManager manager];
+//    //http://10.2.50.110:5000/refactions/167b1e1a-177a-41c2-b160-96a572f75464
+//    [manager GET:[[NSString alloc]initWithFormat:@"http://10.2.50.110:5000/refactions/%@",logid]  parameters:@{} progress:^(NSProgress * _Nonnull downloadProgress) {
+//        //进度
+//        //进度
+//    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//        NSLog(@"success");
+//        requestCallback(responseObject,nil);
+//        dispatch_semaphore_signal(semaphore);
+//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+//        NSLog(@"failure");
+//        requestCallback(nil,error);
+//        dispatch_semaphore_signal(semaphore);
+//    }];
+//     dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
+    
+    
+    NSURL *url = [NSURL URLWithString:[[NSString alloc]initWithFormat:@"http://10.2.50.110:5000/refactions/%@",logid]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    if (data != nil){
+        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+        requestCallback(dic,nil);
+    }else{
+        requestCallback(nil,nil);
+    }
 }
 
 +(void)get{
+    NSURL *url = [NSURL URLWithString:[[NSString alloc]initWithFormat:@"http://10.2.50.110:5000/refactions/%@",@"8BF42DBE1412B1F50659B04B0880F6CF"]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
     AFHTTPSessionManager *manager =[AFHTTPSessionManager manager];
     NSDictionary *dict = @{
                            @"username":@"520it",

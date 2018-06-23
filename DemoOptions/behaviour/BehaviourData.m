@@ -65,29 +65,34 @@
 }
 
 +(void)queryAndNextPage:(TreeDataModel *)data{
-    [BHDataRequest get];
+//    [BHDataRequest get];
     data.children = [[NSMutableArray alloc]init];
-    
-    for(NSInteger i = 0,j = data.allLogData.count; i< j;i++){
+    for(NSInteger i = 0,j = data.allLogData.count; i < j;i++){
         LogdataModel *obj = data.allLogData[i];
-        [BHDataRequest getLogData:obj.logid requestCallback:^(id  _Nullable responseObject, NSError *error) {
-            NSArray<LogdataModel *> *nextPages = [LogdataModel mj_objectArrayWithKeyValuesArray:responseObject[@"data"][@"actions"]];
-            if (nextPages.count > 0){
-                [BehaviourData haveExsitPage:data.children logdata:nextPages[0]];
-            }
-            
-        }];
+        if (![obj.refer isEqualToString:obj.logid]){
+            [BHDataRequest getLogData:obj.logid requestCallback:^(id  _Nullable responseObject, NSError *error) {
+                NSArray<LogdataModel *> *nextPages = [LogdataModel mj_objectArrayWithKeyValuesArray:responseObject[@"data"][@"actions"]];
+                if (nextPages.count > 0){
+                    [BehaviourData haveExsitPage:data.children logdata:nextPages[0]];
+                }
+            }];
+        }
     }
-    
+   
     [data.children enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [BehaviourData queryAndNextPage:obj];
     }];
 }
 
-
-
-
-+(void)haveExsitPage:(NSArray<TreeDataModel *> *)arr logdata:(LogdataModel *)logdata{
++(void)haveExsitPage:(NSMutableArray<TreeDataModel *> *)arr logdata:(LogdataModel *)logdata{
+    if (arr.count == 0){
+        TreeDataModel *re = [[TreeDataModel alloc]init];
+        re.name = logdata.actpage;
+        re.count = 1;
+        re.allLogData = [[NSMutableArray alloc]initWithObjects:logdata, nil];
+        [arr addObject:re];
+    }
+    
     [arr enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if (logdata.actpage == obj.name){
             obj.count += 1;
@@ -96,6 +101,12 @@
             }else{
                 obj.allLogData = [[NSMutableArray alloc]initWithObjects:logdata, nil];
             }
+        }else{
+            TreeDataModel *re = [[TreeDataModel alloc]init];
+            re.name = obj.name;
+            re.count = 1;
+            re.allLogData = [[NSMutableArray alloc]initWithObjects:logdata, nil];
+            [arr addObject:re];
         }
     }];
 }
