@@ -201,6 +201,7 @@
 		9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345020DDF84200E0C144 /* ZMJCells.m */; };
 		9E75345420DDF84200E0C144 /* PageStataicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345220DDF84200E0C144 /* PageStataicsController.m */; };
 		B7BE552720DE164100DDDBB9 /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE552520DE164100DDDBB9 /* BehaviourData.m */; };
+		B7BE552920DE17E700DDDBB9 /* file.json in Resources */ = {isa = PBXBuildFile; fileRef = B7BE552820DE17E600DDDBB9 /* file.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -462,6 +463,7 @@
 		9E75345220DDF84200E0C144 /* PageStataicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageStataicsController.m; sourceTree = "<group>"; };
 		B7BE552520DE164100DDDBB9 /* BehaviourData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BehaviourData.m; sourceTree = "<group>"; };
 		B7BE552620DE164100DDDBB9 /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
+		B7BE552820DE17E600DDDBB9 /* file.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -888,6 +890,7 @@
 				6F65DC161D8217B700950EC5 /* PYVennDemoOptions.m */,
 				6F65DB491D80A02D00950EC5 /* PYWorldCloudDemoOptions.h */,
 				6F65DB4A1D80A02D00950EC5 /* PYWorldCloudDemoOptions.m */,
+				B7BE552820DE17E600DDDBB9 /* file.json */,
 			);
 			path = DemoOptions;
 			sourceTree = "<group>";
@@ -1044,6 +1047,7 @@
 				6F9DCF141D7841D6007CEAD2 /* ForceDemoController.xib in Resources */,
 				6F7352BD1D50A779006CD119 /* js in Resources */,
 				6F9DCF161D7841D6007CEAD2 /* FunnelDemoController.xib in Resources */,
+				B7BE552920DE17E700DDDBB9 /* file.json in Resources */,
 				6F9DCF231D7841D6007CEAD2 /* PieDemoController.xib in Resources */,
 				6F9DCF211D7841D6007CEAD2 /* OtherDemoController.xib in Resources */,
 				6F9DCF251D7841D6007CEAD2 /* RadarDemoController.xib in Resources */,
