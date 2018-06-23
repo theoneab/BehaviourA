@@ -24,18 +24,22 @@
 }
 
 +(void)getLogData:(NSString *)logid requestCallback:(RequestCallback)requestCallback{
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
     AFHTTPSessionManager *manager =[AFHTTPSessionManager manager];
     //http://10.2.50.110:5000/refactions/167b1e1a-177a-41c2-b160-96a572f75464
-    [manager GET:[[NSString alloc]initWithFormat:@"http://10.2.50.110:5000/refactions/%@",logid]  parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    [manager GET:[[NSString alloc]initWithFormat:@"http://10.2.50.110:5000/refactions/%@",logid]  parameters:@{} progress:^(NSProgress * _Nonnull downloadProgress) {
         //进度
         //进度
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"success");
+        dispatch_semaphore_signal(semaphore);
         requestCallback(responseObject,nil);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"failure");
+        dispatch_semaphore_signal(semaphore);
         requestCallback(nil,error);
     }];
+    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
 }
 
 +(void)get{
