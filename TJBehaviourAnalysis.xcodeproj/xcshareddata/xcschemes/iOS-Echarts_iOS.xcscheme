@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C4216751B98E310002D4B7A"
-               BuildableName = "iOS-Echarts_iOS.app"
-               BlueprintName = "iOS-Echarts_iOS"
+               BuildableName = "TJBehaviourAnalysis.app"
+               BlueprintName = "TJBehaviourAnalysis"
                ReferencedContainer = "container:TJBehaviourAnalysis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C42168E1B98E310002D4B7A"
-               BuildableName = "iOS-EchartsTests.xctest"
-               BlueprintName = "iOS-EchartsTests"
+               BuildableName = "TJBehaviourAnalysis_Tests.xctest"
+               BlueprintName = "TJBehaviourAnalysis_Tests"
                ReferencedContainer = "container:TJBehaviourAnalysis.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6C4216751B98E310002D4B7A"
-            BuildableName = "iOS-Echarts_iOS.app"
-            BlueprintName = "iOS-Echarts_iOS"
+            BuildableName = "TJBehaviourAnalysis.app"
+            BlueprintName = "TJBehaviourAnalysis"
             ReferencedContainer = "container:TJBehaviourAnalysis.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6C4216751B98E310002D4B7A"
-            BuildableName = "iOS-Echarts_iOS.app"
-            BlueprintName = "iOS-Echarts_iOS"
+            BuildableName = "TJBehaviourAnalysis.app"
+            BlueprintName = "TJBehaviourAnalysis"
             ReferencedContainer = "container:TJBehaviourAnalysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -90,8 +90,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6C4216751B98E310002D4B7A"
-            BuildableName = "iOS-Echarts_iOS.app"
-            BlueprintName = "iOS-Echarts_iOS"
+            BuildableName = "TJBehaviourAnalysis.app"
+            BlueprintName = "TJBehaviourAnalysis"
             ReferencedContainer = "container:TJBehaviourAnalysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
