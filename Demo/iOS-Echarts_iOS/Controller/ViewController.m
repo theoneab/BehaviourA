@@ -51,6 +51,8 @@
 
 #import "PageStataicsController.h"
 
+
+
 @interface ViewController ()
 
 @end
@@ -130,6 +132,8 @@
         case 11111: // WKWebView
             controller = [[PageStataicsController alloc] init];
             break;
+        case 101://
+            
         default:
             break;
     }

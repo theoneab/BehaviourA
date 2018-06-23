@@ -203,6 +203,8 @@
 		B71EE63420DE314E00AD1A7B /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62E20DE314E00AD1A7B /* BehaviourData.m */; };
 		B71EE63520DE314E00AD1A7B /* LogdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62F20DE314E00AD1A7B /* LogdataModel.m */; };
 		B71EE63620DE314E00AD1A7B /* BHDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE63020DE314E00AD1A7B /* BHDataRequest.m */; };
+		F5B95E3220DE654300571102 /* PYTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B95E3120DE654300571102 /* PYTrackViewController.m */; };
+		F5B95E3820DE65A100571102 /* PYTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B95E3720DE65A100571102 /* PYTrackTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -468,6 +470,10 @@
 		B71EE63120DE314E00AD1A7B /* LogdataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogdataModel.h; sourceTree = "<group>"; };
 		B71EE63220DE314E00AD1A7B /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
 		B71EE63320DE314E00AD1A7B /* BHDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDataRequest.h; sourceTree = "<group>"; };
+		F5B95E3020DE654300571102 /* PYTrackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTrackViewController.h; sourceTree = "<group>"; };
+		F5B95E3120DE654300571102 /* PYTrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTrackViewController.m; sourceTree = "<group>"; };
+		F5B95E3620DE65A100571102 /* PYTrackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTrackTableViewCell.h; sourceTree = "<group>"; };
+		F5B95E3720DE65A100571102 /* PYTrackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTrackTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -775,6 +781,7 @@
 		6F9DCEBD1D7841D6007CEAD2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F5B95E3320DE655F00571102 /* track */,
 				6F9DCEBE1D7841D6007CEAD2 /* BarDemoController.h */,
 				6F9DCEBF1D7841D6007CEAD2 /* BarDemoController.m */,
 				6F9DCEC01D7841D6007CEAD2 /* BarDemoController.xib */,
@@ -937,6 +944,25 @@
 				B71EE63320DE314E00AD1A7B /* BHDataRequest.h */,
 			);
 			path = behaviour;
+			sourceTree = "<group>";
+		};
+		F5B95E3320DE655F00571102 /* track */ = {
+			isa = PBXGroup;
+			children = (
+				F5B95E3420DE657200571102 /* view */,
+				F5B95E3020DE654300571102 /* PYTrackViewController.h */,
+				F5B95E3120DE654300571102 /* PYTrackViewController.m */,
+			);
+			name = track;
+			sourceTree = "<group>";
+		};
+		F5B95E3420DE657200571102 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F5B95E3620DE65A100571102 /* PYTrackTableViewCell.h */,
+				F5B95E3720DE65A100571102 /* PYTrackTableViewCell.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1183,6 +1209,7 @@
 				6F9DCF201D7841D6007CEAD2 /* OtherDemoController.m in Sources */,
 				6F4D58F31D4FE34F00246943 /* PYPolar.m in Sources */,
 				6F4D58FD1D4FE34F00246943 /* PYCartesianSeries.m in Sources */,
+				F5B95E3220DE654300571102 /* PYTrackViewController.m in Sources */,
 				6F4D58F61D4FE34F00246943 /* PYAxisSplitLine.m in Sources */,
 				6F4D59001D4FE34F00246943 /* PYFunnelSeries.m in Sources */,
 				6F9DCF331D7841D6007CEAD2 /* NSObject+RMArchivable.m in Sources */,
@@ -1196,6 +1223,7 @@
 				6F4D58E61D4FE34F00246943 /* PYItemStyle.m in Sources */,
 				6F9DCF091D7841D6007CEAD2 /* EchartsViewCell.m in Sources */,
 				6FF5709E1D85A720007AA7A6 /* PYTreeDemoOptions.m in Sources */,
+				F5B95E3820DE65A100571102 /* PYTrackTableViewCell.m in Sources */,
 				6F9DCF0B1D7841D6007CEAD2 /* BarDemoController.m in Sources */,
 				6F4D58FA1D4FE34F00246943 /* PYToolbox.m in Sources */,
 				6FF570A11D85B0A5007AA7A6 /* PYGaugesDemoOptions.m in Sources */,

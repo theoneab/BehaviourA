@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -126,14 +125,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10008" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-4Q-kVe">
-                                <rect key="frame" x="258" y="97" width="46" height="30"/>
+                                <rect key="frame" x="258.5" y="97" width="46" height="30"/>
                                 <state key="normal" title="字符云"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3PI-oG-CfM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10009" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJ0-jm-4Cy">
-                                <rect key="frame" x="258" y="135" width="46" height="30"/>
+                                <rect key="frame" x="258.5" y="135" width="46" height="30"/>
                                 <state key="normal" title="韦恩图"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tWz-lS-f66"/>
@@ -147,14 +146,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10011" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iR-tp-UNC">
-                                <rect key="frame" x="259" y="211" width="46" height="30"/>
+                                <rect key="frame" x="258.5" y="211" width="46" height="30"/>
                                 <state key="normal" title="仪表盘"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kdd-Fm-Rul"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10012" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQ3-xg-ofq">
-                                <rect key="frame" x="259" y="249" width="46" height="30"/>
+                                <rect key="frame" x="258.5" y="249" width="46" height="30"/>
                                 <state key="normal" title="漏斗图"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HxD-rE-i8d"/>
@@ -168,7 +167,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10014" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cA7-Sc-KVi">
-                                <rect key="frame" x="267" y="287" width="31" height="30"/>
+                                <rect key="frame" x="266" y="287" width="31" height="30"/>
                                 <state key="normal" title="树图"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mR1-hL-iiK"/>
@@ -182,14 +181,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUG-2Q-8qE">
-                                <rect key="frame" x="78" y="325" width="31" height="30"/>
+                                <rect key="frame" x="78.5" y="325" width="31" height="30"/>
                                 <state key="normal" title="其他"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AGA-yJ-zxh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rj-DS-bks">
-                                <rect key="frame" x="239" y="325" width="88" height="30"/>
+                                <rect key="frame" x="237.5" y="325" width="88" height="30"/>
                                 <state key="normal" title="WKWebView"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xSP-cZ-Cvr"/>
@@ -201,6 +200,14 @@
                                 <state key="normal" title="表格"/>
                                 <connections>
                                     <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Q4U-oj-cRs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFy-zr-m1F">
+                                <rect key="frame" x="71" y="437" width="132" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="行为列表"/>
+                                <connections>
+                                    <action selector="gotoDetailDemos:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mvt-Hh-6Qb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -251,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-192" y="307"/>
+            <point key="canvasLocation" x="-192.80000000000001" y="306.29685157421289"/>
         </scene>
     </scenes>
 </document>
