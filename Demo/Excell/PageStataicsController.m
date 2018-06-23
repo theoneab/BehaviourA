@@ -11,11 +11,9 @@
 
 @interface PageStataicsController () <SpreadsheetViewDelegate, SpreadsheetViewDataSource>
 @property (nonatomic, strong) SpreadsheetView *spreadsheetView;
-
-@property (nonatomic, strong) NSArray<NSString *> *dates;
 @property (nonatomic, strong) NSArray<NSString *> *days;
 @property (nonatomic, strong) NSArray<UIColor *>  *dayColors;
-@property (nonatomic, strong) NSArray<NSString *> *hours;
+@property (nonatomic, strong) NSMutableArray<NSString *> *hours;
 @property (nonatomic, strong) NSArray<NSArray<NSString *> *> *data;
 
 @property (nonatomic, strong) UIColor *evenRowColor; //偶数
@@ -39,28 +37,47 @@
 
 - (void)setupMembers {
     
-    self.dates = @[@"7/10/2017", @"7/11/2017", @"7/12/2017", @"7/13/2017", @"7/14/2017", @"7/15/2017", @"7/16/2017"];
-    self.days  = @[@"访问页面", @"访问页面备注名称", @"访问次数", @"访问次数占比", @"次均停留时间", @"停留时间占比", @"退出率", @"入口页次数", @"退出页次数"];
+    self.days  = @[@"访问页面",
+                   @"访问次数",
+                   @"访问次数占比",
+                   @"次均停留时间",
+                   @"停留时间占比",
+                   @"退出率",
+                   @"入口页次数",
+                   @"退出页次数"];
     self.dayColors = @[ [UIColor colorWithRed:0.918 green:0.224 blue:0.153 alpha:1],
                         [UIColor colorWithRed:0.106 green:0.541 blue:0.827 alpha:1],
                         [UIColor colorWithRed:0.200 green:0.620 blue:0.565 alpha:1],
                         [UIColor colorWithRed:0.953 green:0.498 blue:0.098 alpha:1],
                         [UIColor colorWithRed:0.400 green:0.584 blue:0.141 alpha:1],
                         [UIColor colorWithRed:0.835 green:0.655 blue:0.051 alpha:1],
-                        [UIColor colorWithRed:0.153 green:0.569 blue:0.835 alpha:1]];
-    self.hours = @[@"6:00 AM", @"7:00 AM", @"8:00 AM", @"9:00 AM", @"10:00 AM", @"11:00 AM", @"12:00 AM", @"1:00 PM", @"2:00 PM",
-                   @"3:00 PM", @"4:00 PM", @"5:00 PM", @"6:00 PM", @"7:00 PM", @"8:00 PM", @"9:00 PM", @"10:00 PM", @"11:00 PM"];
+                        [UIColor colorWithRed:0.153 green:0.569 blue:0.835 alpha:1],
+                        [UIColor colorWithRed:0.918 green:0.224 blue:0.153 alpha:1]];
+    
     self.evenRowColor = [UIColor colorWithRed:0.91 green:0.91 blue:0.91 alpha:1];
     self.oddRowColor  = [UIColor whiteColor];
     self.data = @[
-                  @[@"", @"", @"Take medicine", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"Movie with family", @"", @"", @"", @"", @"", @""],
-                  @[@"Leave for cabin", @"", @"", @"", @"", @"Lunch with Tim", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""],
-                  @[@"", @"", @"", @"", @"Downtown parade", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""],
-                  @[@"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"Fireworks show", @"", @"", @""],
-                  @[@"", @"", @"", @"", @"", @"Family BBQ", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""],
-                  @[@"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""],
-                  @[@"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"Return home", @"", @"", @"", @"", @"", @""]
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                 @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"]
                   ];
+    self.hours = [NSMutableArray arrayWithCapacity:self.data.count];
+    for (NSInteger index = 0; index < self.data.count; index++) {
+        [self.hours addObject:[NSString stringWithFormat:@"%@",@(index)]];
+        
+    }
 }
 
 - (void)setupviews {
@@ -94,7 +111,7 @@
 
 // MARK: DataSource
 - (NSInteger)numberOfColumns:(SpreadsheetView *)spreadsheetView {
-    return 1 + self.days.count;
+    return 1+self.days.count;
 }
 
 - (NSInteger)numberOfRows:(SpreadsheetView *)spreadsheetView {
@@ -111,8 +128,6 @@
 
 - (CGFloat)spreadsheetView:(SpreadsheetView *)spreadsheetView heightForRow:(NSInteger)row {
     if (0 == row) {
-        return 24;
-    } else if (1 == row) {
         return 32;
     } else {
         return 40;
@@ -128,42 +143,42 @@
 }
 
 - (ZMJCell *)spreadsheetView:(SpreadsheetView *)spreadsheetView cellForItemAt:(NSIndexPath *)indexPath {
-    if ((indexPath.column >= 1 && indexPath.row <= self.dates.count + 1) &&
+    if ((indexPath.column >= 1 && indexPath.row <= self.days.count) &&
         (indexPath.row    == 0))
-    {
-        DateCell *cell  = (DateCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DateCell class])
-                                                                                 forIndexPath:indexPath];
-        cell.label.text = self.dates[indexPath.column - 1];
-        return cell;
-    } else if ((indexPath.column >= 1 && indexPath.column <= self.days.count + 1) &&
-               (indexPath.row    == 1))
     {
         DayTitleCell *cell = (DayTitleCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DayTitleCell class])
                                                                                         forIndexPath:indexPath];
         cell.label.text      = self.days[indexPath.column - 1];
         cell.label.textColor = self.dayColors[indexPath.column - 1];
         return cell;
-    } else if ((indexPath.column == 0) &&
-               (indexPath.row    == 1))
+    }  else if ( indexPath.column == 0  && (indexPath.row    == 1))
     {
-        TimeTitleCell *cell = (TimeTitleCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([TimeTitleCell class])
-                                                                                          forIndexPath:indexPath];
-        cell.label.text     = @"TIME";
+        TimeCell *cell = (TimeCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([TimeCell class])
+                                                                                        forIndexPath:indexPath];
+        cell.label.text      = @"总计";
+        cell.label.textColor = self.dayColors[indexPath.column];
+        return cell;
+    } else if ((indexPath.column > 1 && indexPath.row <= self.days.count) &&
+          (indexPath.row    == 1))
+    {
+        DayTitleCell *cell = (DayTitleCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DayTitleCell class])
+                                                                                        forIndexPath:indexPath];
+        cell.label.text      = @"累积和";
         return cell;
     } else if ((indexPath.column == 0) &&
-               (indexPath.row    >= 2 && indexPath.row <= self.hours.count + 2))
+               (indexPath.row    >= 2 && indexPath.row <= self.hours.count))
     {
         TimeCell *cell = (TimeCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([TimeCell class])
                                                                                 forIndexPath:indexPath];
-        cell.label.text      = self.hours[indexPath.row - 2];
+        cell.label.text      = self.hours[indexPath.row - 1];
         cell.backgroundColor = indexPath.row % 2 == 0 ? self.evenRowColor : self.oddRowColor;
         return cell;
-    } else if ((indexPath.column >= 1 && indexPath.column <= self.days.count + 1) &&
-               (indexPath.row    >= 2 && indexPath.row <= self.hours.count + 2))
+    } else if ((indexPath.column >= 1 && indexPath.column <= self.days.count ) &&
+               (indexPath.row    >= 2 && indexPath.row <= self.hours.count ))
     {
         ScheduleCell *cell = (ScheduleCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([ScheduleCell class])
                                                                                         forIndexPath:indexPath];
-        NSString *text = self.data[indexPath.column - 1][indexPath.row - 2];
+        NSString *text = self.data[indexPath.row - 1][indexPath.column - 1];
         if (text && text.length != 0) {
             cell.label.text = text;
             UIColor *color  = self.dayColors[indexPath.column - 1];

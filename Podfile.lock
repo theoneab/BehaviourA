@@ -22,6 +22,12 @@ DEPENDENCIES:
   - MJExtension
   - ZMJGanttChart
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MJExtension
+    - ZMJGanttChart
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJExtension: 3f039575db1b135a20699ad298713b26acec1528
@@ -29,4 +35,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f1be98b981e50113c549f4669fa5ea6e2c362d4f
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.2
