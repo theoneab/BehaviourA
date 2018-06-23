@@ -200,6 +200,8 @@
 		6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */; };
 		9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345020DDF84200E0C144 /* ZMJCells.m */; };
 		9E75345420DDF84200E0C144 /* PageStataicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345220DDF84200E0C144 /* PageStataicsController.m */; };
+		B71EE62720DE205000AD1A7B /* BHDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62620DE205000AD1A7B /* BHDataRequest.m */; };
+		B71EE62A20DE213000AD1A7B /* LogdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62920DE213000AD1A7B /* LogdataModel.m */; };
 		B7BE552720DE164100DDDBB9 /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE552520DE164100DDDBB9 /* BehaviourData.m */; };
 /* End PBXBuildFile section */
 
@@ -460,6 +462,10 @@
 		9E75345020DDF84200E0C144 /* ZMJCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMJCells.m; sourceTree = "<group>"; };
 		9E75345120DDF84200E0C144 /* ZMJCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMJCells.h; sourceTree = "<group>"; };
 		9E75345220DDF84200E0C144 /* PageStataicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageStataicsController.m; sourceTree = "<group>"; };
+		B71EE62520DE205000AD1A7B /* BHDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHDataRequest.h; sourceTree = "<group>"; };
+		B71EE62620DE205000AD1A7B /* BHDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHDataRequest.m; sourceTree = "<group>"; };
+		B71EE62820DE213000AD1A7B /* LogdataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogdataModel.h; sourceTree = "<group>"; };
+		B71EE62920DE213000AD1A7B /* LogdataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogdataModel.m; sourceTree = "<group>"; };
 		B7BE552520DE164100DDDBB9 /* BehaviourData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BehaviourData.m; sourceTree = "<group>"; };
 		B7BE552620DE164100DDDBB9 /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -917,6 +923,10 @@
 			children = (
 				B7BE552620DE164100DDDBB9 /* BehaviourData.h */,
 				B7BE552520DE164100DDDBB9 /* BehaviourData.m */,
+				B71EE62520DE205000AD1A7B /* BHDataRequest.h */,
+				B71EE62620DE205000AD1A7B /* BHDataRequest.m */,
+				B71EE62820DE213000AD1A7B /* LogdataModel.h */,
+				B71EE62920DE213000AD1A7B /* LogdataModel.m */,
 			);
 			path = behaviour;
 			sourceTree = "<group>";
@@ -1146,6 +1156,7 @@
 				6F9DCF131D7841D6007CEAD2 /* ForceDemoController.m in Sources */,
 				6F4D58EE1D4FE34F00246943 /* PYLoadingOption.m in Sources */,
 				6F4D59031D4FE34F00246943 /* PYMapSeries.m in Sources */,
+				B71EE62A20DE213000AD1A7B /* LogdataModel.m in Sources */,
 				6F9DCF341D7841D6007CEAD2 /* NSObject+RMCopyable.m in Sources */,
 				6FEFF6F01D564D5C00E8B77E /* PYChordStyle.m in Sources */,
 				6F9DCF241D7841D6007CEAD2 /* RadarDemoController.m in Sources */,
@@ -1213,6 +1224,7 @@
 				6F4D59021D4FE34F00246943 /* PYHeatmapSeries.m in Sources */,
 				6F4D58DD1D4FE34F00246943 /* PYAxisLabel.m in Sources */,
 				6F9DCF0F1D7841D6007CEAD2 /* ChordDemoController.m in Sources */,
+				B71EE62720DE205000AD1A7B /* BHDataRequest.m in Sources */,
 				6F4D58EF1D4FE34F00246943 /* PYNoDataLoadingOption.m in Sources */,
 				6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */,
 				6F9DCF171D7841D6007CEAD2 /* GaugesDemoController.m in Sources */,

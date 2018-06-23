@@ -44,7 +44,7 @@
         count--;
     }
     
-    if (rand()%5 > 1 && re.level + 1 <= 5) {
+    if (rand()%5 > 1 && re.level + 1 <= 2) {
         [re.children enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [BehaviourData addChild:obj];
         }];
