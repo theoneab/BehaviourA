@@ -67,6 +67,7 @@
                                                             options:NSJSONReadingMutableContainers
                                                               error:&err];
         dic = [BehaviourData getTreeData];
+        dic = [BehaviourData dealTreeData];
         if(err) {
             NSLog(@"json解析失败：%@",err);
             return;

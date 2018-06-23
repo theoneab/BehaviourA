@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
 
+typedef void(^RequestCallback)(id  _Nullable responseObject, NSError *error);
 @interface BHDataRequest : NSObject
++(void)get:(NSString *)url param:(NSDictionary *)param requestCallback:(RequestCallback)requestCallback;
++(void)getLogData:(NSString *)logid requestCallback:(RequestCallback)requestCallback;
 
++(void)get;
 @end
