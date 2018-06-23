@@ -198,6 +198,8 @@
 		6FF570A11D85B0A5007AA7A6 /* PYGaugesDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A01D85B0A5007AA7A6 /* PYGaugesDemoOptions.m */; };
 		6FF570A41D861842007AA7A6 /* PYFunnelDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A31D861842007AA7A6 /* PYFunnelDemoOptions.m */; };
 		6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */; };
+		9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345020DDF84200E0C144 /* ZMJCells.m */; };
+		9E75345420DDF84200E0C144 /* PageStataicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345220DDF84200E0C144 /* PageStataicsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -453,6 +455,10 @@
 		6FF570A51D88597B007AA7A6 /* PYScatterDemoOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYScatterDemoOptions.h; sourceTree = "<group>"; };
 		6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYScatterDemoOptions.m; sourceTree = "<group>"; };
 		80AD0D35A1FF1EBF3721DFD4 /* Pods-TJBehaviourAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJBehaviourAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-TJBehaviourAnalysis/Pods-TJBehaviourAnalysis.release.xcconfig"; sourceTree = "<group>"; };
+		9E75344F20DDF84200E0C144 /* PageStataicsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageStataicsController.h; sourceTree = "<group>"; };
+		9E75345020DDF84200E0C144 /* ZMJCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMJCells.m; sourceTree = "<group>"; };
+		9E75345120DDF84200E0C144 /* ZMJCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMJCells.h; sourceTree = "<group>"; };
+		9E75345220DDF84200E0C144 /* PageStataicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageStataicsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -721,6 +727,7 @@
 		6F9DCEB11D7841D6007CEAD2 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9E75344E20DDF81400E0C144 /* Excell */,
 				6F743A421D78AFA500C94967 /* iOS-Echarts_OSX */,
 				6F9DCEB21D7841D6007CEAD2 /* iOS-Echarts_iOS */,
 			);
@@ -888,6 +895,17 @@
 				6FEFF6EA1D56448300E8B77E /* NSObject+PYObject.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		9E75344E20DDF81400E0C144 /* Excell */ = {
+			isa = PBXGroup;
+			children = (
+				9E75344F20DDF84200E0C144 /* PageStataicsController.h */,
+				9E75345220DDF84200E0C144 /* PageStataicsController.m */,
+				9E75345120DDF84200E0C144 /* ZMJCells.h */,
+				9E75345020DDF84200E0C144 /* ZMJCells.m */,
+			);
+			path = Excell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1118,6 +1136,7 @@
 				6F4D59061D4FE34F00246943 /* PYPieSeries.m in Sources */,
 				6F4D58EB1D4FE34F00246943 /* PYLineStyle.m in Sources */,
 				6F9DCF1E1D7841D6007CEAD2 /* MultiEchartsController.m in Sources */,
+				9E75345420DDF84200E0C144 /* PageStataicsController.m in Sources */,
 				6F4D58E31D4FE34F00246943 /* PYDataRange.m in Sources */,
 				6F9DCF1B1D7841D6007CEAD2 /* MainController.m in Sources */,
 				6F9DCF2E1D7841D6007CEAD2 /* ViewController.m in Sources */,
@@ -1139,6 +1158,7 @@
 				6F4D58F71D4FE34F00246943 /* PYTextStyle.m in Sources */,
 				542992701E1622E50082986D /* WKWebViewController.m in Sources */,
 				6F4D58F91D4FE34F00246943 /* PYTitle.m in Sources */,
+				9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */,
 				6F09E9D91D6CD106006A76CD /* PYChordSeries.m in Sources */,
 				6F4D58F51D4FE34F00246943 /* PYSplitArea.m in Sources */,
 				6F9DCF191D7841D6007CEAD2 /* LineDemoController.m in Sources */,
