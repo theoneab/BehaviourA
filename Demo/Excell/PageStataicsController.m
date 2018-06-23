@@ -57,21 +57,30 @@
     self.evenRowColor = [UIColor colorWithRed:0.91 green:0.91 blue:0.91 alpha:1];
     self.oddRowColor  = [UIColor whiteColor];
     self.data = @[
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                 @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
-                  @[@"searchindex", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"]
+                  @[@"home", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"search_home", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"app", @"484", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"unit_detail", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                 @[@"chat_detail", @"368", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"search_suggestion", @"117", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"landlord_unit_publish", @"110", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"landlord_unit_publish_list", @"99", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"landlord_mystuff", @"86", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"mystuff", @"81", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"favorites", @"21", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"collect", @"21", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"home", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"search_home", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"app", @"484", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"unit_detail", @"667", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"chat_detail", @"368", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"search_suggestion", @"117", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"landlord_unit_publish", @"110", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"landlord_unit_publish_list", @"99", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"landlord_mystuff", @"86", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"mystuff", @"81", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"favorites", @"21", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"],
+                  @[@"collect", @"21", @"31.94%", @"0:00:16", @"17.15%", @"20.24%", @"42", @"135"]
                   ];
     self.hours = [NSMutableArray arrayWithCapacity:self.data.count];
     for (NSInteger index = 0; index < self.data.count; index++) {
@@ -115,7 +124,7 @@
 }
 
 - (NSInteger)numberOfRows:(SpreadsheetView *)spreadsheetView {
-    return 2 + self.hours.count;
+    return 1 + self.hours.count;
 }
 
 - (CGFloat)spreadsheetView:(SpreadsheetView *)spreadsheetView widthForColumn:(NSInteger)column {
@@ -139,7 +148,7 @@
 }
 
 - (NSInteger)frozenRows:(SpreadsheetView *)spreadsheetView {
-    return 2;
+    return 1;
 }
 
 - (ZMJCell *)spreadsheetView:(SpreadsheetView *)spreadsheetView cellForItemAt:(NSIndexPath *)indexPath {
@@ -151,22 +160,8 @@
         cell.label.text      = self.days[indexPath.column - 1];
         cell.label.textColor = self.dayColors[indexPath.column - 1];
         return cell;
-    }  else if ( indexPath.column == 0  && (indexPath.row    == 1))
-    {
-        TimeCell *cell = (TimeCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([TimeCell class])
-                                                                                        forIndexPath:indexPath];
-        cell.label.text      = @"总计";
-        cell.label.textColor = self.dayColors[indexPath.column];
-        return cell;
-    } else if ((indexPath.column > 1 && indexPath.row <= self.days.count) &&
-          (indexPath.row    == 1))
-    {
-        DayTitleCell *cell = (DayTitleCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([DayTitleCell class])
-                                                                                        forIndexPath:indexPath];
-        cell.label.text      = @"累积和";
-        return cell;
-    } else if ((indexPath.column == 0) &&
-               (indexPath.row    >= 2 && indexPath.row <= self.hours.count))
+    }  else if ((indexPath.column == 0) &&
+               (indexPath.row    >= 1 && indexPath.row <= self.hours.count))
     {
         TimeCell *cell = (TimeCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([TimeCell class])
                                                                                 forIndexPath:indexPath];
@@ -174,7 +169,7 @@
         cell.backgroundColor = indexPath.row % 2 == 0 ? self.evenRowColor : self.oddRowColor;
         return cell;
     } else if ((indexPath.column >= 1 && indexPath.column <= self.days.count ) &&
-               (indexPath.row    >= 2 && indexPath.row <= self.hours.count ))
+               (indexPath.row    >= 1 && indexPath.row <= self.hours.count ))
     {
         ScheduleCell *cell = (ScheduleCell *)[spreadsheetView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([ScheduleCell class])
                                                                                         forIndexPath:indexPath];
