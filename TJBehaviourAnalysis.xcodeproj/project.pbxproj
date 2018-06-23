@@ -204,6 +204,10 @@
 		B71EE63520DE314E00AD1A7B /* LogdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62F20DE314E00AD1A7B /* LogdataModel.m */; };
 		B71EE63620DE314E00AD1A7B /* BHDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE63020DE314E00AD1A7B /* BHDataRequest.m */; };
 		B71EE63820DE462700AD1A7B /* file1.json in Resources */ = {isa = PBXBuildFile; fileRef = B71EE63720DE462700AD1A7B /* file1.json */; };
+		F5B95E3220DE654300571102 /* PYTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B95E3120DE654300571102 /* PYTrackViewController.m */; };
+		F5B95E3820DE65A100571102 /* PYTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B95E3720DE65A100571102 /* PYTrackTableViewCell.m */; };
+		F5B95E4420DE6C4000571102 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B95E4020DE6C3F00571102 /* UserData.m */; };
+		F5B95E4520DE6C4000571102 /* UidData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B95E4320DE6C4000571102 /* UidData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -470,6 +474,14 @@
 		B71EE63220DE314E00AD1A7B /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
 		B71EE63320DE314E00AD1A7B /* BHDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDataRequest.h; sourceTree = "<group>"; };
 		B71EE63720DE462700AD1A7B /* file1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file1.json; sourceTree = "<group>"; };
+		F5B95E3020DE654300571102 /* PYTrackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTrackViewController.h; sourceTree = "<group>"; };
+		F5B95E3120DE654300571102 /* PYTrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTrackViewController.m; sourceTree = "<group>"; };
+		F5B95E3620DE65A100571102 /* PYTrackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTrackTableViewCell.h; sourceTree = "<group>"; };
+		F5B95E3720DE65A100571102 /* PYTrackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTrackTableViewCell.m; sourceTree = "<group>"; };
+		F5B95E4020DE6C3F00571102 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		F5B95E4120DE6C3F00571102 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		F5B95E4220DE6C4000571102 /* UidData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UidData.h; sourceTree = "<group>"; };
+		F5B95E4320DE6C4000571102 /* UidData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UidData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -777,6 +789,7 @@
 		6F9DCEBD1D7841D6007CEAD2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F5B95E3320DE655F00571102 /* track */,
 				6F9DCEBE1D7841D6007CEAD2 /* BarDemoController.h */,
 				6F9DCEBF1D7841D6007CEAD2 /* BarDemoController.m */,
 				6F9DCEC01D7841D6007CEAD2 /* BarDemoController.xib */,
@@ -940,6 +953,37 @@
 				B71EE63020DE314E00AD1A7B /* BHDataRequest.m */,
 			);
 			path = behaviour;
+			sourceTree = "<group>";
+		};
+		F5B95E3320DE655F00571102 /* track */ = {
+			isa = PBXGroup;
+			children = (
+				F5B95E3F20DE6C2D00571102 /* model */,
+				F5B95E3420DE657200571102 /* view */,
+				F5B95E3020DE654300571102 /* PYTrackViewController.h */,
+				F5B95E3120DE654300571102 /* PYTrackViewController.m */,
+			);
+			name = track;
+			sourceTree = "<group>";
+		};
+		F5B95E3420DE657200571102 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F5B95E3620DE65A100571102 /* PYTrackTableViewCell.h */,
+				F5B95E3720DE65A100571102 /* PYTrackTableViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F5B95E3F20DE6C2D00571102 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F5B95E4220DE6C4000571102 /* UidData.h */,
+				F5B95E4320DE6C4000571102 /* UidData.m */,
+				F5B95E4120DE6C3F00571102 /* UserData.h */,
+				F5B95E4020DE6C3F00571102 /* UserData.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1187,6 +1231,7 @@
 				6F9DCF201D7841D6007CEAD2 /* OtherDemoController.m in Sources */,
 				6F4D58F31D4FE34F00246943 /* PYPolar.m in Sources */,
 				6F4D58FD1D4FE34F00246943 /* PYCartesianSeries.m in Sources */,
+				F5B95E3220DE654300571102 /* PYTrackViewController.m in Sources */,
 				6F4D58F61D4FE34F00246943 /* PYAxisSplitLine.m in Sources */,
 				6F4D59001D4FE34F00246943 /* PYFunnelSeries.m in Sources */,
 				6F9DCF331D7841D6007CEAD2 /* NSObject+RMArchivable.m in Sources */,
@@ -1200,6 +1245,7 @@
 				6F4D58E61D4FE34F00246943 /* PYItemStyle.m in Sources */,
 				6F9DCF091D7841D6007CEAD2 /* EchartsViewCell.m in Sources */,
 				6FF5709E1D85A720007AA7A6 /* PYTreeDemoOptions.m in Sources */,
+				F5B95E3820DE65A100571102 /* PYTrackTableViewCell.m in Sources */,
 				6F9DCF0B1D7841D6007CEAD2 /* BarDemoController.m in Sources */,
 				6F4D58FA1D4FE34F00246943 /* PYToolbox.m in Sources */,
 				6FF570A11D85B0A5007AA7A6 /* PYGaugesDemoOptions.m in Sources */,
@@ -1232,6 +1278,7 @@
 				6F4D58F81D4FE34F00246943 /* PYTimeline.m in Sources */,
 				6F9DCF2C1D7841D6007CEAD2 /* VennDemoController.m in Sources */,
 				6F4D58FE1D4FE34F00246943 /* PYEventRiverSeries.m in Sources */,
+				F5B95E4520DE6C4000571102 /* UidData.m in Sources */,
 				6F4D58E41D4FE34F00246943 /* PYDataZoom.m in Sources */,
 				6F4D58F11D4FE34F00246943 /* PYNodeStyle.m in Sources */,
 				6F4D58F01D4FE34F00246943 /* PYNodes.m in Sources */,
@@ -1248,6 +1295,7 @@
 				6F65DC141D820E2200950EC5 /* PYCandlestickDemoOptions.m in Sources */,
 				6F4D58E51D4FE34F00246943 /* PYGrid.m in Sources */,
 				6F4D59011D4FE34F00246943 /* PYGaugeSeries.m in Sources */,
+				F5B95E4420DE6C4000571102 /* UserData.m in Sources */,
 				6F9DCF0D1D7841D6007CEAD2 /* CandlestickDemoController.m in Sources */,
 				6F65DC1A1D821CA400950EC5 /* PYTreemapDemoOptions.m in Sources */,
 				6F9DCF061D7841D6007CEAD2 /* AppDelegate.m in Sources */,
