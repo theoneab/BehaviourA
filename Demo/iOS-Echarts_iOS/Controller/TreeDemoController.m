@@ -29,8 +29,9 @@ typedef NS_ENUM(NSInteger, TreeDemoTypeTag) {
 
 - (void) initAll {
     self.title = @"树图";
-    [_echartsView setOption:[PYTreeDemoOptions tree1Option]];
+    [_echartsView setOption:[PYTreeDemoOptions tree2Option]];
     [_echartsView loadEcharts];
+    _echartsView.frame = CGRectMake(0, 30, [UIScreen.mainScreen bounds].size.width, [UIScreen.mainScreen bounds].size.height);
 }
 
 - (IBAction)demoBtnClick:(id)sender {

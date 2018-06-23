@@ -60,12 +60,11 @@
     re.name = objs[0].actpage;
     re.count = objs.count;
     re.allLogData = [[NSMutableArray alloc]initWithArray:objs];
-    [BehaviourData queryAndNextPage:re];
+    [BehaviourData queryNextPage:re];
     return [re mj_keyValues];
 }
 
-+(void)queryAndNextPage:(TreeDataModel *)data{
-//    [BHDataRequest get];
++(void)queryNextPage:(TreeDataModel *)data{
     data.children = [[NSMutableArray alloc]init];
     for(NSInteger i = 0,j = data.allLogData.count; i < j;i++){
         LogdataModel *obj = data.allLogData[i];
@@ -80,7 +79,7 @@
     }
    
     [data.children enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [BehaviourData queryAndNextPage:obj];
+        [BehaviourData queryNextPage:obj];
     }];
 }
 
@@ -94,7 +93,7 @@
     }
     
     [arr enumerateObjectsUsingBlock:^(TreeDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (logdata.actpage == obj.name){
+        if ([logdata.actpage isEqualToString: obj.name]){
             obj.count += 1;
             if( obj.allLogData.count > 0 ){
                 [obj.allLogData addObject:logdata];
