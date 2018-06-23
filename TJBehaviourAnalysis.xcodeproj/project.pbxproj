@@ -203,6 +203,7 @@
 		B71EE63420DE314E00AD1A7B /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62E20DE314E00AD1A7B /* BehaviourData.m */; };
 		B71EE63520DE314E00AD1A7B /* LogdataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE62F20DE314E00AD1A7B /* LogdataModel.m */; };
 		B71EE63620DE314E00AD1A7B /* BHDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EE63020DE314E00AD1A7B /* BHDataRequest.m */; };
+		B71EE63820DE462700AD1A7B /* file1.json in Resources */ = {isa = PBXBuildFile; fileRef = B71EE63720DE462700AD1A7B /* file1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -468,6 +469,7 @@
 		B71EE63120DE314E00AD1A7B /* LogdataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogdataModel.h; sourceTree = "<group>"; };
 		B71EE63220DE314E00AD1A7B /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
 		B71EE63320DE314E00AD1A7B /* BHDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDataRequest.h; sourceTree = "<group>"; };
+		B71EE63720DE462700AD1A7B /* file1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = file1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -895,6 +897,7 @@
 				6F65DC161D8217B700950EC5 /* PYVennDemoOptions.m */,
 				6F65DB491D80A02D00950EC5 /* PYWorldCloudDemoOptions.h */,
 				6F65DB4A1D80A02D00950EC5 /* PYWorldCloudDemoOptions.m */,
+				B71EE63720DE462700AD1A7B /* file1.json */,
 			);
 			path = DemoOptions;
 			sourceTree = "<group>";
@@ -929,12 +932,12 @@
 		B71EE62D20DE314E00AD1A7B /* behaviour */ = {
 			isa = PBXGroup;
 			children = (
-				B71EE62E20DE314E00AD1A7B /* BehaviourData.m */,
-				B71EE62F20DE314E00AD1A7B /* LogdataModel.m */,
-				B71EE63020DE314E00AD1A7B /* BHDataRequest.m */,
-				B71EE63120DE314E00AD1A7B /* LogdataModel.h */,
 				B71EE63220DE314E00AD1A7B /* BehaviourData.h */,
+				B71EE62E20DE314E00AD1A7B /* BehaviourData.m */,
+				B71EE63120DE314E00AD1A7B /* LogdataModel.h */,
+				B71EE62F20DE314E00AD1A7B /* LogdataModel.m */,
 				B71EE63320DE314E00AD1A7B /* BHDataRequest.h */,
+				B71EE63020DE314E00AD1A7B /* BHDataRequest.m */,
 			);
 			path = behaviour;
 			sourceTree = "<group>";
@@ -1054,6 +1057,7 @@
 				6F9DCF071D7841D6007CEAD2 /* LaunchScreen.xib in Resources */,
 				542992711E1622E50082986D /* WKWebViewController.xib in Resources */,
 				6F9DCF2B1D7841D6007CEAD2 /* TreemapDemoController.xib in Resources */,
+				B71EE63820DE462700AD1A7B /* file1.json in Resources */,
 				6F9DCF291D7841D6007CEAD2 /* TreeDemoController.xib in Resources */,
 				6F743AEB1D7E1C2D00C94967 /* theme in Resources */,
 				6F9DCF101D7841D6007CEAD2 /* ChordDemoController.xib in Resources */,
