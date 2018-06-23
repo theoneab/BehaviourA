@@ -1,16 +1,15 @@
 PODS:
+  - MJExtension (3.0.15)
   - ZMJGanttChart (0.1.4)
 
 DEPENDENCIES:
+  - MJExtension
   - ZMJGanttChart
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - ZMJGanttChart
-
 SPEC CHECKSUMS:
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
   ZMJGanttChart: 5e2c8c2e1431954e408b990b8a580e6d03affbf7
 
-PODFILE CHECKSUM: 3b4bb859142d708a94f9c950067d00fac0619042
+PODFILE CHECKSUM: 455a57fcbe834c4d3a3c434627e71adcecfbb23c
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.2.0

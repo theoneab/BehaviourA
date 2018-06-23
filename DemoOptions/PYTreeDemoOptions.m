@@ -7,6 +7,7 @@
 //
 
 #import "PYTreeDemoOptions.h"
+#import "BehaviourData.h"
 
 @implementation PYTreeDemoOptions
 
@@ -65,6 +66,7 @@
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
                                                             options:NSJSONReadingMutableContainers
                                                               error:&err];
+        dic = [BehaviourData getTreeData];
         if(err) {
             NSLog(@"json解析失败：%@",err);
             return;

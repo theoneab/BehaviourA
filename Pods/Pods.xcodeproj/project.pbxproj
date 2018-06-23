@@ -7,229 +7,389 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A974889A92FA9FBBEBE35D5565225A /* SpreadsheetView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D2FA125646A4D9CA72933107F917E /* SpreadsheetView+Layout.m */; };
-		0EA46D08D37A241554D4D5270451E367 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = E342F8DD685E455B8C50B6B53A07D954 /* Address.m */; };
-		11246C3FE74DCC8BA41AF46DB4335A66 /* Gridlines.m in Sources */ = {isa = PBXBuildFile; fileRef = D96366442060BF76FFF7A3F28C9FF0FA /* Gridlines.m */; };
-		16277ED3FF631F3A755383B0BBA6BA73 /* Pods-TJBehaviourAnalysis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E72A789C469FB870C117EC5F76B474 /* Pods-TJBehaviourAnalysis-dummy.m */; };
-		1B6C19F7EBB5A4E8663E57EF65DFFF92 /* ZMJCellRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF41F1DA7114EDB3C976AC98E9A870 /* ZMJCellRange.m */; };
-		2171E7DB7F92993EF3A7FCB7B8AF4D5B /* CircualrScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F3B7285CE97BD935335F0549FC70C6 /* CircualrScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2314FDDC7115A9693DF875C1A7165777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		283B03B611C37835F518E60B519CA3E5 /* SpreadsheetView+Touches.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5D63E528E6158363F12A05512CE3A7 /* SpreadsheetView+Touches.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30CA3ADC98F11ACAAE6B650666CA3A50 /* Address.h in Headers */ = {isa = PBXBuildFile; fileRef = B2058C1A65C8F45EA60658D0818C4549 /* Address.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32C2270858F492014318AADC9C133A5C /* SpreadsheetViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFEEA43FE41893D9A2FC6725B9381A5 /* SpreadsheetViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		372195A0237FC098307F3678768788CB /* NSDictionary+WBGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CD1B8539F434AE69FCAC6AE37143D2 /* NSDictionary+WBGAdd.m */; };
-		3B5FAC4A6A7B26352033F2C2061AE3DC /* ZMJScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1291F21D79CBEA1891644922EDA7C904 /* ZMJScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E02CE97BF21672B3BFC92593941A69D /* ZMJGanttChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 9863A52B678E31E592DDF83AF8F0C8A8 /* ZMJGanttChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F1A0AC423409F7E556A2FCFD497756E /* NSArray+BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5049F9561DB98EDA964A481E7B6CE5A3 /* NSArray+BinarySearch.m */; };
-		40F86DE33577E0C44727084BE8C247FE /* Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C98602E764DA0CEA3AE0575034867D /* Borders.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4948244C1DB1508170580B7D79B7FD35 /* SpreadsheetView+UISnapshotting.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7A751B251EA377A9144B176413B215 /* SpreadsheetView+UISnapshotting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DA9584F0948534BC79DA803A6C61440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		4F5F11C4697557C0B19BA6DCF704788F /* ZMJLayoutEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C75325A3C3009603A8E55853FFC854 /* ZMJLayoutEngine.m */; };
-		50179DDF26E3921265D4EE1F204D388B /* Gridlines.h in Headers */ = {isa = PBXBuildFile; fileRef = F3782C8668B44B0C3287B366537C064C /* Gridlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5216C259B497109199A484249D63391A /* NSArray+WBGAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017858E3AE9DFECBF4056828E03EEFF /* NSArray+WBGAddition.m */; };
-		52FB85A8D88E54200EFB7C0BBA3E6469 /* SpreadsheetView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3266BB034F3EAE0EA6F70D8CDD0C7928 /* SpreadsheetView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5380D3EB2C9FA48A932BECA8458C81E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		57E7850C620E8237BD8D5D4D5752C94E /* SpreadsheetView+UISnapshotting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D65D330F2BBD6AC107F7D04DD4C0EDB /* SpreadsheetView+UISnapshotting.m */; };
-		58D3154EE94AAC1DF5595490988BCDA2 /* SpreadsheetView+UIScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 565060798C6AE28CF60E7ECC7AAE10EC /* SpreadsheetView+UIScrollViewDelegate.m */; };
-		5CF66F41D310B38C55A3FE101BD07279 /* ZMJGanttChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D26CB62F462EA018E0C9E5F825F74D /* ZMJGanttChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6417D650F05662E0EA9E3FDEA6A607D7 /* ZMJGanttChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7925DFD542B5B5D5E40A10BC9BF8CD4 /* ZMJGanttChart-dummy.m */; };
-		6A6503E0E5ADA1B522921950362D7B07 /* ZMJScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 775B411E239F6634F4E85FC23B6F82B3 /* ZMJScrollView.m */; };
-		6DAF82D1176F661B16DDA2090D70E8B6 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D95E3752A032F9C983AD42DA8EDC15AA /* SpreadsheetView+UIScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73402518919F761DBE450B0280610DF6 /* NSIndexPath+column.h in Headers */ = {isa = PBXBuildFile; fileRef = 2202BC7FF744F5279394CB185B05A8B8 /* NSIndexPath+column.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7710CB6F93E0ED8B0019E72B244318B0 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EDD78146146D9D735F7D68F6384E78 /* Location.m */; };
-		778DC9D8F77A22FBE14858083033E45C /* NSDictionary+WBGAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 379FCD232CFAF2CDC8714827019C58C1 /* NSDictionary+WBGAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78DBD29A3FED99F8D7F96BA8BDF960BC /* SpreadsheetView+UIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D49E570D19BFFC07B4FD3C829959F2 /* SpreadsheetView+UIScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		888A585FE892B15B6CD3300B07DF6734 /* SpreadsheetView+CirclularScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3DD4228567DBFFF5E71E198EA8938 /* SpreadsheetView+CirclularScrolling.m */; };
-		8D4510E8AB04448D6DD61E2F0C5F6FFA /* SpreadsheetView+Touches.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CD4830A027E951E0A0B56405A1957A /* SpreadsheetView+Touches.m */; };
-		8DABEAECE0B6D74399D758F3A14DDE42 /* ZMJCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B350D655F19BB1E9B1AB040D3C156226 /* ZMJCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9048769B481B1AA3B0828B6C2615FE89 /* SpreadsheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42F3278DD16DE12CBA6CEF794BA3A56 /* SpreadsheetView.m */; };
-		94112B078D86887EA9BFD9BE9C3A416D /* Location.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3078AE0EA899DD44597771729A27C3 /* Location.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94FA500419B2CEF46DF7B2F692035637 /* SpreadsheetView+UIViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D566940DFB95991CE15D7DD4E6741D /* SpreadsheetView+UIViewHierarchy.m */; };
-		9A580A068EA66EACB543F5C2AB2DCBFC /* Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6AF997EFA1EA9D67CD19CD3B8B594E /* Borders.m */; };
-		A308E970F6192A0721E1D2F0BC3627D5 /* Pods-TJBehaviourAnalysis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6365C9B5B40299D550B2A81077B5C9F4 /* Pods-TJBehaviourAnalysis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A85CE671C94ACB7323BDC992684131FE /* CircualrScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B31F6CB225285D37ABC7DA4F61D9681 /* CircualrScrolling.m */; };
-		ABC2A868CCEB23E3F65930A9CE0856AD /* NSArray+BinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 434A0905D1CFDCDC63C5BA47CA6C0D3A /* NSArray+BinarySearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF5939976C44F1551451975404C5537A /* ReuseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623C29B3390517417F6B5994DDC11A8 /* ReuseQueue.m */; };
-		B0095A5D69E660FDDD4D64331959BA90 /* NSArray+WBGAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 042517232CE7178AE116A6CAF85FB9E0 /* NSArray+WBGAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B348B981711703F556594543834626CE /* SpreadsheetView+CirclularScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F65B040E3F4E46581C1F4ABF722C70 /* SpreadsheetView+CirclularScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC67812C6023C554F5990A072BC49A7E /* SpreadsheetView+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615038B8F683A024A3AE41257918BC2 /* SpreadsheetView+UIScrollView.m */; };
-		E3DF7DFDA4B29F842BEF7B3F46570E33 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 9959BF7DAD01B451C4F4F78EDFF1CC1A /* Define.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7C4490BC81EEC1B814EA35046D4D3B1 /* SpreadsheetView+UIViewHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D27A0DE0B5629C41F863F677AA2FF30 /* SpreadsheetView+UIViewHierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECA155081E55D0303E9980CB01A4DD46 /* ZMJCellRange.h in Headers */ = {isa = PBXBuildFile; fileRef = E96EA65F853C750630EFFF2EA85AB006 /* ZMJCellRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDDBAF4B753E01FA5C0FE84DA022B51A /* ZMJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F78040F6E6BFBF1047AB1A969B127FB /* ZMJCell.m */; };
-		F3240BFD55ED9847C61ED2364F36E435 /* SpreadsheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA72FC0959B27B59D352C9F4773A2B /* SpreadsheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8CB535B4FF99C64D9630E0B4A3D3DB4 /* ReuseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CCEA9E5770543441770CA60DDC7A8A /* ReuseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F99DA56CB224681C3DFFF3965F49B6FE /* SpreadsheetViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD29484502EF9D9F78988B1F4F2F7E4 /* SpreadsheetViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB4B5914079C76F995558BEA464ACF3F /* ZMJLayoutEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FB24B36F3E22547B6DC1C24FFB27C5F9 /* ZMJLayoutEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBEEF9F4CF2CDE03B56D362B4AF5154F /* NSIndexPath+column.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA7A755FFF781E09FE36C7F643DA996 /* NSIndexPath+column.m */; };
+		015FE20F53A8DF11E256F3C46AC7F9DD /* SpreadsheetView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7ED4BBACB608DD55F7DC3628F813B /* SpreadsheetView+Layout.m */; };
+		068F6DF04EF0371EEC29C6787B63910B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 99469CE7AA8ED578B093E291E679EED9 /* NSObject+MJProperty.m */; };
+		094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A649851E69C73D6E5AFCB7B338B8BE3 /* MJPropertyType.m */; };
+		0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A44C8EB847C8F9363283A30FC996260 /* MJPropertyKey.m */; };
+		0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C89DD255233A79D4365901732A4766AA /* NSObject+MJKeyValue.m */; };
+		0B87E3A220C18A7449294BD2E7CDB51F /* SpreadsheetView+CirclularScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9042BB10B1170C2F32C863E8A5689F8E /* SpreadsheetView+CirclularScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD6A150AECBD6E845EA42432A7680C8 /* NSArray+WBGAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA13C95B43B79199B05EC4EFA7E3AF7 /* NSArray+WBGAddition.m */; };
+		0C380E06C333E15F3B60AD5255E67D63 /* SpreadsheetView+UISnapshotting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3945D385C9655F8E02E224353EA9601B /* SpreadsheetView+UISnapshotting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11697B7749D2EB7EB2BF20E9379888A8 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0318B4A6C2A69AA4E82DDDA99B7C6410 /* SpreadsheetView+UIScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE539ACE8CF2BC640C33513A496C6F7 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		171B3317805FE0A9EAD595CA5ACDB2BA /* NSIndexPath+column.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB134BBF010596527A295448F35FB5C /* NSIndexPath+column.m */; };
+		1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E2FB97A241DB0EF0834199530B99DD /* NSString+MJExtension.m */; };
+		1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 7605E9834ECD19A9E197784489D671CB /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29BDDD48724C8CCDD9D9774714940757 /* NSIndexPath+column.h in Headers */ = {isa = PBXBuildFile; fileRef = 746A6CA7B811C7F519E84181A3CFA50C /* NSIndexPath+column.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E04F7FD19DB0B64EA10207786F864EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2ED630136233D32B35E56DF2685AD74F /* ZMJGanttChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C96FEAC7A32A05976074F8B5D8E15884 /* ZMJGanttChart-dummy.m */; };
+		336974A27AA017326B5888F2C6652A48 /* SpreadsheetView+CirclularScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E569E037FE8929601FFD5C3B7F4A062 /* SpreadsheetView+CirclularScrolling.m */; };
+		356134916445FADDD9E4917BD068B64A /* NSArray+WBGAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 21931F934AA06939CB8D1ACFDE8839CB /* NSArray+WBGAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FB14A2A4806D6C6DBDD1118EB4C1E2 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC50E20C6ADFF9EF072A2B6CDB89604 /* Gridlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 842E3D4226A5EF80406D2AA515D3CC6B /* Gridlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2D186598F405087F1B6747D9DBDF89 /* SpreadsheetView+Touches.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5987895BAABC99E4EEF2F1AB7857C3 /* SpreadsheetView+Touches.m */; };
+		488FA2EE75F7E108F254ACF62C1F5877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		48CA53A59E0CDA68624159D49D7FF3A0 /* ZMJCellRange.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B1C7B030C7693210A68BBF0E881BA5 /* ZMJCellRange.m */; };
+		49840AA08589945FDBBD3FD2EA671565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4FA95E992DF85605CBBA286D47A9A7A0 /* ZMJLayoutEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C52073DB15193DEB10A9C7622EB15BBA /* ZMJLayoutEngine.m */; };
+		55D3D9759863DF3C8AD73148C1F86030 /* ZMJLayoutEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4E145AF1C54DA4091A1705E791D8AF /* ZMJLayoutEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D687D42BCA06B440233EFD223AC60E /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = C09D65AF8706F74DFA7D66CC6C542D6E /* Location.m */; };
+		58EFF22FEFA78894F9F808799F961BD5 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC2B93C5C133610B6E2E7752D235D24 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F704DD768B2F10712ECDA01B9A4000 /* ZMJCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E04140C2298581975D94FB4AAD0E42 /* ZMJCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B27A4BF2C076E665774088FECF377 /* MJExtension-dummy.m */; };
+		5BD2A9D0D752792C18F1E7F6CDBEB0FA /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6143E0B22177E644AC773ADAA46407E3 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A174EB6926AB4F109384C6FE9C72D8 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F9CECA2CF70EE438F2EDF6FF8DDF35 /* ZMJCellRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 803BA56CA0091D334BEC8EDDE86016E7 /* ZMJCellRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64298620A2F1EFAB12386F3861E08D40 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF3B82145D3C777E13EA55BAE11B4B0 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C2D50B587B49E0226361ACA4D250E7 /* Pods-TJBehaviourAnalysis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F769394B7AD9354236D30E5A29B9E2 /* Pods-TJBehaviourAnalysis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6938F70FF56E37645B51CDB5D1689716 /* SpreadsheetView+Touches.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E4C1915EFF282CD1C76CC9EB136E54 /* SpreadsheetView+Touches.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D3FF8335A969D70B7D49FAD0E1698E7 /* CircualrScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C09A305C47995B5160661D525E7FE /* CircualrScrolling.m */; };
+		6DA14D61DB56E00FF18F2F75C51454AE /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE8902277950180553B26A02A5AD061 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7224F211990837A15E0CD7F7967288FF /* SpreadsheetView+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AD95D4E9B71FD8442F9EEC7E9B5A1B /* SpreadsheetView+UIScrollView.m */; };
+		7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF645553A025A072E23E8F2A19C5D0 /* NSObject+MJClass.m */; };
+		7F0345AEFDABE58A589D4A953609B4F4 /* SpreadsheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D1148FCF3D0CAB24D74C2DA18BB2E4 /* SpreadsheetView.m */; };
+		87B4B2616BFE5DC1166727CD66F4090A /* ZMJScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BA1826DAF48EC9DB0E6BF91774D6E9 /* ZMJScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8949EEE6D7B719D8E7A476CF5247C705 /* ReuseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AF59FC7E34BD615D313778F5E746B1 /* ReuseQueue.m */; };
+		8CCA70007892AE41B6CEDDAE56AB27AF /* ZMJScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D070EA06DF70C6E83B6EAA2663DCD01D /* ZMJScrollView.m */; };
+		8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A501C3286FE54F66AE1A90FD00A41F00 /* NSObject+MJCoding.m */; };
+		92097DED9E7B5412B36DE1D89559794A /* SpreadsheetViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A569DFFE1CDA35A1C97AFA4F4EB0C93F /* SpreadsheetViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95359F95C1B4BAFEAB22B2BBFE4D3B73 /* Gridlines.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBCB539099C67B3E7B7F8CBBB43D56E /* Gridlines.m */; };
+		9F3AB4C27618EC2005B512002A3141B8 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = ED21468C9E51EABD741D438CF3B193DB /* Define.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07DC6E773A5CC2E49641573397BDB92 /* Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 912D1DC104D16293B3D2C66AB420E40B /* Borders.m */; };
+		A61CBA1B7EC469C602F47186539239E0 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1BB731218BE6537583484DD00222F1 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62669E8887420E9EEE0E050E7285328 /* ZMJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEFB538018A61955642C9E40608870 /* ZMJCell.m */; };
+		A8CBEA2F5D9A6250847AD231BBD0953E /* SpreadsheetView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5D2E3FD890CCAF78EAB7F90BEAA23B /* SpreadsheetView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5D47A3ECF05C0E61A765BA5D6BE10F /* Address.h in Headers */ = {isa = PBXBuildFile; fileRef = CB50A5C82B16A18BE29D8C1FC2A33419 /* Address.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC17B2B48B6A83FEB2610BC605A0F44A /* NSDictionary+WBGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EE53D68089CDE6F69C2A6290E0E80F /* NSDictionary+WBGAdd.m */; };
+		ADCE4F2CA3AEFDAE9F81BD9350FB1544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B7B68FDABB146B87FA3C9E987D2014DE /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = A467BF88CADB1B48132B9E46888EB38D /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9855EF335178C49EDBB032ED62F625 /* ZMJGanttChart.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4001F4F03781EC8D4FA625CE23779E /* ZMJGanttChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE3F385DBFFECB48D553E92BA2F398C7 /* SpreadsheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FB3F4455FB9F71D7E589B911A5AA6C /* SpreadsheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5D1F3F328F92B94594C721E8223E50 /* CircualrScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 459CCBB856CE7111C040E3CA14B95BFC /* CircualrScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22D1FDDCE8E14F6BE63997B8DD265DE /* SpreadsheetView+UIScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32078A11894A1504E271CB1FA1FDF638 /* SpreadsheetView+UIScrollViewDelegate.m */; };
+		CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB6102C690EA74A7F2482276DF5A3D /* MJExtensionConst.m */; };
+		D00CEBD032C9898DD7A59A9E79134643 /* SpreadsheetView+UIViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB278A85554080F8DE88554D94589C6 /* SpreadsheetView+UIViewHierarchy.m */; };
+		D432D34F8C431716598E0523E8986674 /* NSArray+BinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F504EC0AA324C3BC91A7B3E7758C508 /* NSArray+BinarySearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5DC976E07E4990B729C3B3040CA1934 /* Location.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A640DF11DFD4FE6BFE537EDFF0ED2A7 /* Location.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DED5CD8D1D5DE09F7D84C79FC156334B /* ReuseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F40977A0E1FFCC85AFC19A1E7398618F /* ReuseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF7ED897A20D836CF6F7CCA4F6B821D1 /* Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A38811D6A606F07995B3E730E0FAAF9 /* Borders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FCA2ABBE2C5EF75F004103BC26D472 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D418EDE12FC64D68615E48FE18D9C730 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F7298F407E705FBF1826939F020FB /* MJProperty.m */; };
+		E80C4B50539FA8A299A593C5DBACC3CE /* SpreadsheetView+UISnapshotting.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C4694FDC0D6708DFD9E2042D012EE /* SpreadsheetView+UISnapshotting.m */; };
+		EC4529D9C4559C22BF9DDB9D48364585 /* NSArray+BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = AED223BA33D5F76E374F12A344983787 /* NSArray+BinarySearch.m */; };
+		ED0317D3AF3B9C6FC1003B1A47E9DEE6 /* SpreadsheetViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DE287E9F05053D047B3C6DC0F2BA215F /* SpreadsheetViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F2D2074E9E5C70FE63BC922AA61BF /* NSDictionary+WBGAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BAF86BFC574399BAF019550F3ABB9E /* NSDictionary+WBGAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2868057214D746F4FC857263172FFE7 /* SpreadsheetView+UIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D0E0B8CBA1EBA88502F0A8F235E89B /* SpreadsheetView+UIScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE2378FEB9F480765710EE49154E394 /* MJFoundation.m */; };
+		F559A28AD56A0CE6A72C0BA171506679 /* SpreadsheetView+UIViewHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5987F118AB48A4F4E8E4EDC0F53D2EEC /* SpreadsheetView+UIViewHierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D549D21374E88BFE3A3A794AE62C27 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B5DBB517E62B7388E4671EF023E871 /* Address.m */; };
+		F75E2AE2D12480AE889D1D3B7A654FAA /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 013C4B14012AFD872BF7657A32C66732 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E709735B2F366E4695C0C3A3BFA4CD /* Pods-TJBehaviourAnalysis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9A0CAE47EBB2915CB691416B4FCA0 /* Pods-TJBehaviourAnalysis-dummy.m */; };
+		FF509C25D1002536C471EF09EA3BC843 /* ZMJGanttChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED37FF9E04CC895DFBF576B6F4B4FFF /* ZMJGanttChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		45380A91303327E16908F2112226268A /* PBXContainerItemProxy */ = {
+		63E1F9B15B2A96B9A9D55051C2811051 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3CE7914C1BE9BF82E4E57826D6CCEAF7;
+			remoteGlobalIDString = 5AA17C95E926B760FD08E0B487DAEFA2;
+			remoteInfo = MJExtension;
+		};
+		ACC4C0F1C3A192A47A84E579AD0A35FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94FF2EDF3B5DA4D8709BF5635EB7733;
 			remoteInfo = ZMJGanttChart;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042517232CE7178AE116A6CAF85FB9E0 /* NSArray+WBGAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WBGAddition.h"; path = "ZMJGanttChart/Classes/NSArray+WBGAddition.h"; sourceTree = "<group>"; };
-		1291F21D79CBEA1891644922EDA7C904 /* ZMJScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJScrollView.h; path = ZMJGanttChart/Classes/ZMJScrollView.h; sourceTree = "<group>"; };
-		13F65B040E3F4E46581C1F4ABF722C70 /* SpreadsheetView+CirclularScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+CirclularScrolling.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+CirclularScrolling.h"; sourceTree = "<group>"; };
-		1B31F6CB225285D37ABC7DA4F61D9681 /* CircualrScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircualrScrolling.m; path = ZMJGanttChart/Classes/CircualrScrolling.m; sourceTree = "<group>"; };
-		21F3B7285CE97BD935335F0549FC70C6 /* CircualrScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircualrScrolling.h; path = ZMJGanttChart/Classes/CircualrScrolling.h; sourceTree = "<group>"; };
-		2202BC7FF744F5279394CB185B05A8B8 /* NSIndexPath+column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+column.h"; path = "ZMJGanttChart/Classes/NSIndexPath+column.h"; sourceTree = "<group>"; };
-		2623C29B3390517417F6B5994DDC11A8 /* ReuseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReuseQueue.m; path = ZMJGanttChart/Classes/ReuseQueue.m; sourceTree = "<group>"; };
-		29CD1B8539F434AE69FCAC6AE37143D2 /* NSDictionary+WBGAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WBGAdd.m"; path = "ZMJGanttChart/Classes/NSDictionary+WBGAdd.m"; sourceTree = "<group>"; };
-		2D1388F87EBEC7A4842C0C978A90BBB1 /* Pods-TJBehaviourAnalysis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJBehaviourAnalysis-acknowledgements.plist"; sourceTree = "<group>"; };
-		3266BB034F3EAE0EA6F70D8CDD0C7928 /* SpreadsheetView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Layout.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+Layout.h"; sourceTree = "<group>"; };
-		32EE1B4C1D88CFED63A04B117B5FC634 /* ZMJGanttChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMJGanttChart.modulemap; sourceTree = "<group>"; };
-		379FCD232CFAF2CDC8714827019C58C1 /* NSDictionary+WBGAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WBGAdd.h"; path = "ZMJGanttChart/Classes/NSDictionary+WBGAdd.h"; sourceTree = "<group>"; };
-		39D49E570D19BFFC07B4FD3C829959F2 /* SpreadsheetView+UIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollView.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollView.h"; sourceTree = "<group>"; };
-		3F9E897F317D06CF1529B58DC6F5DD12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4017858E3AE9DFECBF4056828E03EEFF /* NSArray+WBGAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WBGAddition.m"; path = "ZMJGanttChart/Classes/NSArray+WBGAddition.m"; sourceTree = "<group>"; };
-		434A0905D1CFDCDC63C5BA47CA6C0D3A /* NSArray+BinarySearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BinarySearch.h"; path = "ZMJGanttChart/Classes/NSArray+BinarySearch.h"; sourceTree = "<group>"; };
-		47AD3D3F69EE554565DB22E6D32F6D9B /* Pods-TJBehaviourAnalysis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJBehaviourAnalysis-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F78040F6E6BFBF1047AB1A969B127FB /* ZMJCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCell.m; path = ZMJGanttChart/Classes/ZMJCell.m; sourceTree = "<group>"; };
-		5049F9561DB98EDA964A481E7B6CE5A3 /* NSArray+BinarySearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BinarySearch.m"; path = "ZMJGanttChart/Classes/NSArray+BinarySearch.m"; sourceTree = "<group>"; };
-		55C75325A3C3009603A8E55853FFC854 /* ZMJLayoutEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJLayoutEngine.m; path = ZMJGanttChart/Classes/ZMJLayoutEngine.m; sourceTree = "<group>"; };
-		565060798C6AE28CF60E7ECC7AAE10EC /* SpreadsheetView+UIScrollViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollViewDelegate.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollViewDelegate.m"; sourceTree = "<group>"; };
-		5D27A0DE0B5629C41F863F677AA2FF30 /* SpreadsheetView+UIViewHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIViewHierarchy.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIViewHierarchy.h"; sourceTree = "<group>"; };
-		6365C9B5B40299D550B2A81077B5C9F4 /* Pods-TJBehaviourAnalysis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJBehaviourAnalysis-umbrella.h"; sourceTree = "<group>"; };
-		6892F3390E560A12FA87610F7E58EDDE /* ZMJGanttChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMJGanttChart.xcconfig; sourceTree = "<group>"; };
-		6A7A751B251EA377A9144B176413B215 /* SpreadsheetView+UISnapshotting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UISnapshotting.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UISnapshotting.h"; sourceTree = "<group>"; };
-		6C3078AE0EA899DD44597771729A27C3 /* Location.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ZMJGanttChart/Classes/Location.h; sourceTree = "<group>"; };
-		6D65D330F2BBD6AC107F7D04DD4C0EDB /* SpreadsheetView+UISnapshotting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UISnapshotting.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UISnapshotting.m"; sourceTree = "<group>"; };
-		6F9D2FA125646A4D9CA72933107F917E /* SpreadsheetView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Layout.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+Layout.m"; sourceTree = "<group>"; };
-		73F7ECD44296AE26F2295B75AB1B6F5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7615038B8F683A024A3AE41257918BC2 /* SpreadsheetView+UIScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollView.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollView.m"; sourceTree = "<group>"; };
-		775B411E239F6634F4E85FC23B6F82B3 /* ZMJScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJScrollView.m; path = ZMJGanttChart/Classes/ZMJScrollView.m; sourceTree = "<group>"; };
-		7C5D63E528E6158363F12A05512CE3A7 /* SpreadsheetView+Touches.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Touches.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+Touches.h"; sourceTree = "<group>"; };
-		8F53D3BE9CF051DA072123DFA77EB14C /* ZMJGanttChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJGanttChart-prefix.pch"; sourceTree = "<group>"; };
-		8FFEEA43FE41893D9A2FC6725B9381A5 /* SpreadsheetViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDataSource.h; path = ZMJGanttChart/Classes/SpreadsheetViewDataSource.h; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		013C4B14012AFD872BF7657A32C66732 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		0318B4A6C2A69AA4E82DDDA99B7C6410 /* SpreadsheetView+UIScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollViewDelegate.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollViewDelegate.h"; sourceTree = "<group>"; };
+		052C09A305C47995B5160661D525E7FE /* CircualrScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircualrScrolling.m; path = ZMJGanttChart/Classes/CircualrScrolling.m; sourceTree = "<group>"; };
+		05E2FB97A241DB0EF0834199530B99DD /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		07FB14A2A4806D6C6DBDD1118EB4C1E2 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		0CE539ACE8CF2BC640C33513A496C6F7 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		0E481AED67DBD2B8DCDA1C5B73CBA285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFF645553A025A072E23E8F2A19C5D0 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		11BA1826DAF48EC9DB0E6BF91774D6E9 /* ZMJScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJScrollView.h; path = ZMJGanttChart/Classes/ZMJScrollView.h; sourceTree = "<group>"; };
+		1E569E037FE8929601FFD5C3B7F4A062 /* SpreadsheetView+CirclularScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+CirclularScrolling.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+CirclularScrolling.m"; sourceTree = "<group>"; };
+		21931F934AA06939CB8D1ACFDE8839CB /* NSArray+WBGAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WBGAddition.h"; path = "ZMJGanttChart/Classes/NSArray+WBGAddition.h"; sourceTree = "<group>"; };
+		22A174EB6926AB4F109384C6FE9C72D8 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		22E04140C2298581975D94FB4AAD0E42 /* ZMJCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCell.h; path = ZMJGanttChart/Classes/ZMJCell.h; sourceTree = "<group>"; };
+		236368E1443C7CE53F5F42E701D7C57F /* ZMJGanttChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZMJGanttChart.modulemap; sourceTree = "<group>"; };
+		32078A11894A1504E271CB1FA1FDF638 /* SpreadsheetView+UIScrollViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollViewDelegate.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollViewDelegate.m"; sourceTree = "<group>"; };
+		38D1148FCF3D0CAB24D74C2DA18BB2E4 /* SpreadsheetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpreadsheetView.m; path = ZMJGanttChart/Classes/SpreadsheetView.m; sourceTree = "<group>"; };
+		3945D385C9655F8E02E224353EA9601B /* SpreadsheetView+UISnapshotting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UISnapshotting.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UISnapshotting.h"; sourceTree = "<group>"; };
+		3A5987895BAABC99E4EEF2F1AB7857C3 /* SpreadsheetView+Touches.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Touches.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+Touches.m"; sourceTree = "<group>"; };
+		3A640DF11DFD4FE6BFE537EDFF0ED2A7 /* Location.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ZMJGanttChart/Classes/Location.h; sourceTree = "<group>"; };
+		3AC2B93C5C133610B6E2E7752D235D24 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		3F504EC0AA324C3BC91A7B3E7758C508 /* NSArray+BinarySearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BinarySearch.h"; path = "ZMJGanttChart/Classes/NSArray+BinarySearch.h"; sourceTree = "<group>"; };
+		459CCBB856CE7111C040E3CA14B95BFC /* CircualrScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircualrScrolling.h; path = ZMJGanttChart/Classes/CircualrScrolling.h; sourceTree = "<group>"; };
+		47F769394B7AD9354236D30E5A29B9E2 /* Pods-TJBehaviourAnalysis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJBehaviourAnalysis-umbrella.h"; sourceTree = "<group>"; };
+		4A38811D6A606F07995B3E730E0FAAF9 /* Borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Borders.h; path = ZMJGanttChart/Classes/Borders.h; sourceTree = "<group>"; };
+		4A4A6F547C9F6D15C139DD5823FC928B /* Pods_TJBehaviourAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TJBehaviourAnalysis.framework; path = "Pods-TJBehaviourAnalysis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE8902277950180553B26A02A5AD061 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		4C4E145AF1C54DA4091A1705E791D8AF /* ZMJLayoutEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJLayoutEngine.h; path = ZMJGanttChart/Classes/ZMJLayoutEngine.h; sourceTree = "<group>"; };
+		4ED37FF9E04CC895DFBF576B6F4B4FFF /* ZMJGanttChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJGanttChart-umbrella.h"; sourceTree = "<group>"; };
+		4FB134BBF010596527A295448F35FB5C /* NSIndexPath+column.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+column.m"; path = "ZMJGanttChart/Classes/NSIndexPath+column.m"; sourceTree = "<group>"; };
+		52AD95D4E9B71FD8442F9EEC7E9B5A1B /* SpreadsheetView+UIScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollView.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollView.m"; sourceTree = "<group>"; };
+		584B27A4BF2C076E665774088FECF377 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		5987F118AB48A4F4E8E4EDC0F53D2EEC /* SpreadsheetView+UIViewHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIViewHierarchy.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIViewHierarchy.h"; sourceTree = "<group>"; };
+		5DE7ED4BBACB608DD55F7DC3628F813B /* SpreadsheetView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Layout.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+Layout.m"; sourceTree = "<group>"; };
+		6143E0B22177E644AC773ADAA46407E3 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		69AF59FC7E34BD615D313778F5E746B1 /* ReuseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReuseQueue.m; path = ZMJGanttChart/Classes/ReuseQueue.m; sourceTree = "<group>"; };
+		6A649851E69C73D6E5AFCB7B338B8BE3 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		6E4F2258A94DAC34844BB3EFA00FB2FB /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F48AFCB2510CD233475EE1793300E36 /* Pods-TJBehaviourAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJBehaviourAnalysis.release.xcconfig"; sourceTree = "<group>"; };
+		7072150F93DA4DCEFA3E914F2C57DCED /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		70FB3F4455FB9F71D7E589B911A5AA6C /* SpreadsheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetView.h; path = ZMJGanttChart/Classes/SpreadsheetView.h; sourceTree = "<group>"; };
+		71E05D7877038D0A4887F7F3027E83ED /* Pods-TJBehaviourAnalysis-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJBehaviourAnalysis-resources.sh"; sourceTree = "<group>"; };
+		73E4C1915EFF282CD1C76CC9EB136E54 /* SpreadsheetView+Touches.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Touches.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+Touches.h"; sourceTree = "<group>"; };
+		746A6CA7B811C7F519E84181A3CFA50C /* NSIndexPath+column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+column.h"; path = "ZMJGanttChart/Classes/NSIndexPath+column.h"; sourceTree = "<group>"; };
+		7605E9834ECD19A9E197784489D671CB /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		78B46E356FE25C0DE854BB064652AF1A /* Pods-TJBehaviourAnalysis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TJBehaviourAnalysis.modulemap"; sourceTree = "<group>"; };
+		7ABEFB538018A61955642C9E40608870 /* ZMJCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCell.m; path = ZMJGanttChart/Classes/ZMJCell.m; sourceTree = "<group>"; };
+		7AE89A0399E944D4BDC139143811F2B1 /* Pods-TJBehaviourAnalysis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJBehaviourAnalysis-acknowledgements.plist"; sourceTree = "<group>"; };
+		803BA56CA0091D334BEC8EDDE86016E7 /* ZMJCellRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCellRange.h; path = ZMJGanttChart/Classes/ZMJCellRange.h; sourceTree = "<group>"; };
+		80D4C5340EE5AA7D4A553533AC64F5CC /* Pods-TJBehaviourAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJBehaviourAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		83B5DBB517E62B7388E4671EF023E871 /* Address.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = ZMJGanttChart/Classes/Address.m; sourceTree = "<group>"; };
+		842E3D4226A5EF80406D2AA515D3CC6B /* Gridlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gridlines.h; path = ZMJGanttChart/Classes/Gridlines.h; sourceTree = "<group>"; };
+		9042BB10B1170C2F32C863E8A5689F8E /* SpreadsheetView+CirclularScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+CirclularScrolling.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+CirclularScrolling.h"; sourceTree = "<group>"; };
+		912D1DC104D16293B3D2C66AB420E40B /* Borders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Borders.m; path = ZMJGanttChart/Classes/Borders.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9863A52B678E31E592DDF83AF8F0C8A8 /* ZMJGanttChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJGanttChart.h; path = ZMJGanttChart/Classes/ZMJGanttChart.h; sourceTree = "<group>"; };
-		9959BF7DAD01B451C4F4F78EDFF1CC1A /* Define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Define.h; path = ZMJGanttChart/Classes/Define.h; sourceTree = "<group>"; };
-		9BE3DD4228567DBFFF5E71E198EA8938 /* SpreadsheetView+CirclularScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+CirclularScrolling.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+CirclularScrolling.m"; sourceTree = "<group>"; };
-		A0EF41F1DA7114EDB3C976AC98E9A870 /* ZMJCellRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCellRange.m; path = ZMJGanttChart/Classes/ZMJCellRange.m; sourceTree = "<group>"; };
-		A3974E0AC79713130ADBC4D7CD53FC2F /* ZMJGanttChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMJGanttChart.framework; path = ZMJGanttChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5C98602E764DA0CEA3AE0575034867D /* Borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Borders.h; path = ZMJGanttChart/Classes/Borders.h; sourceTree = "<group>"; };
-		A7D566940DFB95991CE15D7DD4E6741D /* SpreadsheetView+UIViewHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIViewHierarchy.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIViewHierarchy.m"; sourceTree = "<group>"; };
-		AC645942F3C3135CDB977CF984AF24A3 /* Pods-TJBehaviourAnalysis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJBehaviourAnalysis-frameworks.sh"; sourceTree = "<group>"; };
-		ACBB93D8A2FBBB7FC9DD6AB283640B58 /* Pods-TJBehaviourAnalysis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJBehaviourAnalysis.modulemap"; sourceTree = "<group>"; };
-		B2058C1A65C8F45EA60658D0818C4549 /* Address.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Address.h; path = ZMJGanttChart/Classes/Address.h; sourceTree = "<group>"; };
-		B350D655F19BB1E9B1AB040D3C156226 /* ZMJCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCell.h; path = ZMJGanttChart/Classes/ZMJCell.h; sourceTree = "<group>"; };
-		B42F3278DD16DE12CBA6CEF794BA3A56 /* SpreadsheetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpreadsheetView.m; path = ZMJGanttChart/Classes/SpreadsheetView.m; sourceTree = "<group>"; };
-		B9E72A789C469FB870C117EC5F76B474 /* Pods-TJBehaviourAnalysis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJBehaviourAnalysis-dummy.m"; sourceTree = "<group>"; };
-		BA7B407D4B0C2961AF2F622261DC965D /* Pods-TJBehaviourAnalysis-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJBehaviourAnalysis-resources.sh"; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C35D6F89B4DBA6CBEB904E9321B6800C /* Pods_TJBehaviourAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TJBehaviourAnalysis.framework; path = "Pods-TJBehaviourAnalysis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9B0ED2D578D12F59977CA580E51D152 /* Pods-TJBehaviourAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJBehaviourAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
-		D8CCEA9E5770543441770CA60DDC7A8A /* ReuseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReuseQueue.h; path = ZMJGanttChart/Classes/ReuseQueue.h; sourceTree = "<group>"; };
-		D95E3752A032F9C983AD42DA8EDC15AA /* SpreadsheetView+UIScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollViewDelegate.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollViewDelegate.h"; sourceTree = "<group>"; };
-		D96366442060BF76FFF7A3F28C9FF0FA /* Gridlines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Gridlines.m; path = ZMJGanttChart/Classes/Gridlines.m; sourceTree = "<group>"; };
-		E342F8DD685E455B8C50B6B53A07D954 /* Address.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = ZMJGanttChart/Classes/Address.m; sourceTree = "<group>"; };
-		E3CD4830A027E951E0A0B56405A1957A /* SpreadsheetView+Touches.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Touches.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+Touches.m"; sourceTree = "<group>"; };
-		E5955186757BEE3BA9710F827BA9964F /* Pods-TJBehaviourAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJBehaviourAnalysis.release.xcconfig"; sourceTree = "<group>"; };
-		E7925DFD542B5B5D5E40A10BC9BF8CD4 /* ZMJGanttChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMJGanttChart-dummy.m"; sourceTree = "<group>"; };
-		E96EA65F853C750630EFFF2EA85AB006 /* ZMJCellRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCellRange.h; path = ZMJGanttChart/Classes/ZMJCellRange.h; sourceTree = "<group>"; };
-		EBD29484502EF9D9F78988B1F4F2F7E4 /* SpreadsheetViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDelegate.h; path = ZMJGanttChart/Classes/SpreadsheetViewDelegate.h; sourceTree = "<group>"; };
-		ECA7A755FFF781E09FE36C7F643DA996 /* NSIndexPath+column.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+column.m"; path = "ZMJGanttChart/Classes/NSIndexPath+column.m"; sourceTree = "<group>"; };
-		EE6AF997EFA1EA9D67CD19CD3B8B594E /* Borders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Borders.m; path = ZMJGanttChart/Classes/Borders.m; sourceTree = "<group>"; };
-		F0EDD78146146D9D735F7D68F6384E78 /* Location.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ZMJGanttChart/Classes/Location.m; sourceTree = "<group>"; };
-		F2D26CB62F462EA018E0C9E5F825F74D /* ZMJGanttChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJGanttChart-umbrella.h"; sourceTree = "<group>"; };
-		F3782C8668B44B0C3287B366537C064C /* Gridlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gridlines.h; path = ZMJGanttChart/Classes/Gridlines.h; sourceTree = "<group>"; };
-		FB24B36F3E22547B6DC1C24FFB27C5F9 /* ZMJLayoutEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJLayoutEngine.h; path = ZMJGanttChart/Classes/ZMJLayoutEngine.h; sourceTree = "<group>"; };
-		FFFA72FC0959B27B59D352C9F4773A2B /* SpreadsheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetView.h; path = ZMJGanttChart/Classes/SpreadsheetView.h; sourceTree = "<group>"; };
+		99207EB72854F962EF1F2331B0082F6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99469CE7AA8ED578B093E291E679EED9 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		9A44C8EB847C8F9363283A30FC996260 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		9C088FD0EFB803C3C5D0228E3BB9B9FA /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		9D5C7ADD3562BDEAFFE36716EFE82745 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		9ECB6102C690EA74A7F2482276DF5A3D /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		9F3F7298F407E705FBF1826939F020FB /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		A2F8F1F9508ACFD650B7F72848CDC5C3 /* Pods-TJBehaviourAnalysis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJBehaviourAnalysis-frameworks.sh"; sourceTree = "<group>"; };
+		A467BF88CADB1B48132B9E46888EB38D /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		A501C3286FE54F66AE1A90FD00A41F00 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		A569DFFE1CDA35A1C97AFA4F4EB0C93F /* SpreadsheetViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDelegate.h; path = ZMJGanttChart/Classes/SpreadsheetViewDelegate.h; sourceTree = "<group>"; };
+		AC87346DF88DE923A2E8FF1AB264B80E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1BB731218BE6537583484DD00222F1 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		AED223BA33D5F76E374F12A344983787 /* NSArray+BinarySearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BinarySearch.m"; path = "ZMJGanttChart/Classes/NSArray+BinarySearch.m"; sourceTree = "<group>"; };
+		B1EE53D68089CDE6F69C2A6290E0E80F /* NSDictionary+WBGAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WBGAdd.m"; path = "ZMJGanttChart/Classes/NSDictionary+WBGAdd.m"; sourceTree = "<group>"; };
+		B348A63D56AAB4354570A58C7D41F030 /* ZMJGanttChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJGanttChart-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B96710326EA79C49115B8A07F041193C /* ZMJGanttChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMJGanttChart.xcconfig; sourceTree = "<group>"; };
+		BBE2378FEB9F480765710EE49154E394 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		BCBCB539099C67B3E7B7F8CBBB43D56E /* Gridlines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Gridlines.m; path = ZMJGanttChart/Classes/Gridlines.m; sourceTree = "<group>"; };
+		BEB278A85554080F8DE88554D94589C6 /* SpreadsheetView+UIViewHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIViewHierarchy.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIViewHierarchy.m"; sourceTree = "<group>"; };
+		BF5D2E3FD890CCAF78EAB7F90BEAA23B /* SpreadsheetView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Layout.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+Layout.h"; sourceTree = "<group>"; };
+		C09D65AF8706F74DFA7D66CC6C542D6E /* Location.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ZMJGanttChart/Classes/Location.m; sourceTree = "<group>"; };
+		C52073DB15193DEB10A9C7622EB15BBA /* ZMJLayoutEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJLayoutEngine.m; path = ZMJGanttChart/Classes/ZMJLayoutEngine.m; sourceTree = "<group>"; };
+		C89DD255233A79D4365901732A4766AA /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		C96FEAC7A32A05976074F8B5D8E15884 /* ZMJGanttChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMJGanttChart-dummy.m"; sourceTree = "<group>"; };
+		CB50A5C82B16A18BE29D8C1FC2A33419 /* Address.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Address.h; path = ZMJGanttChart/Classes/Address.h; sourceTree = "<group>"; };
+		CDF3B82145D3C777E13EA55BAE11B4B0 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		D070EA06DF70C6E83B6EAA2663DCD01D /* ZMJScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJScrollView.m; path = ZMJGanttChart/Classes/ZMJScrollView.m; sourceTree = "<group>"; };
+		D418EDE12FC64D68615E48FE18D9C730 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE287E9F05053D047B3C6DC0F2BA215F /* SpreadsheetViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDataSource.h; path = ZMJGanttChart/Classes/SpreadsheetViewDataSource.h; sourceTree = "<group>"; };
+		DEA13C95B43B79199B05EC4EFA7E3AF7 /* NSArray+WBGAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WBGAddition.m"; path = "ZMJGanttChart/Classes/NSArray+WBGAddition.m"; sourceTree = "<group>"; };
+		E0B1C7B030C7693210A68BBF0E881BA5 /* ZMJCellRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCellRange.m; path = ZMJGanttChart/Classes/ZMJCellRange.m; sourceTree = "<group>"; };
+		E4BAF86BFC574399BAF019550F3ABB9E /* NSDictionary+WBGAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WBGAdd.h"; path = "ZMJGanttChart/Classes/NSDictionary+WBGAdd.h"; sourceTree = "<group>"; };
+		EB4001F4F03781EC8D4FA625CE23779E /* ZMJGanttChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJGanttChart.h; path = ZMJGanttChart/Classes/ZMJGanttChart.h; sourceTree = "<group>"; };
+		ED21468C9E51EABD741D438CF3B193DB /* Define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Define.h; path = ZMJGanttChart/Classes/Define.h; sourceTree = "<group>"; };
+		EF0C4694FDC0D6708DFD9E2042D012EE /* SpreadsheetView+UISnapshotting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UISnapshotting.m"; path = "ZMJGanttChart/Classes/SpreadsheetView+UISnapshotting.m"; sourceTree = "<group>"; };
+		F01AE920EF2EDA7754B53F4D18974B9F /* Pods-TJBehaviourAnalysis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJBehaviourAnalysis-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F02E18E1F2052D44F6A2701F246CC090 /* ZMJGanttChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMJGanttChart.framework; path = ZMJGanttChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D0E0B8CBA1EBA88502F0A8F235E89B /* SpreadsheetView+UIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollView.h"; path = "ZMJGanttChart/Classes/SpreadsheetView+UIScrollView.h"; sourceTree = "<group>"; };
+		F40977A0E1FFCC85AFC19A1E7398618F /* ReuseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReuseQueue.h; path = ZMJGanttChart/Classes/ReuseQueue.h; sourceTree = "<group>"; };
+		FFC9A0CAE47EBB2915CB691416B4FCA0 /* Pods-TJBehaviourAnalysis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJBehaviourAnalysis-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C26042358BDA1D87AF4D11D3BBDBD6C3 /* Frameworks */ = {
+		01F5D8AA0DC41A81CA94CB320713D684 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5380D3EB2C9FA48A932BECA8458C81E7 /* Foundation.framework in Frameworks */,
-				2314FDDC7115A9693DF875C1A7165777 /* UIKit.framework in Frameworks */,
+				2E04F7FD19DB0B64EA10207786F864EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D51D48B9760F0245DF52FF4FAC0E5C1B /* Frameworks */ = {
+		2DEF631C49ED31E1DF185ED221D57571 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA9584F0948534BC79DA803A6C61440 /* Foundation.framework in Frameworks */,
+				ADCE4F2CA3AEFDAE9F81BD9350FB1544 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649A3D05106541733FDA36C0BFA0F41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49840AA08589945FDBBD3FD2EA671565 /* Foundation.framework in Frameworks */,
+				488FA2EE75F7E108F254ACF62C1F5877 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C90E3B2A230543C84C071485BAF43E3 /* Support Files */ = {
+		049247468F9EE9BD8550147492138745 /* Pods-TJBehaviourAnalysis */ = {
 			isa = PBXGroup;
 			children = (
-				3F9E897F317D06CF1529B58DC6F5DD12 /* Info.plist */,
-				32EE1B4C1D88CFED63A04B117B5FC634 /* ZMJGanttChart.modulemap */,
-				6892F3390E560A12FA87610F7E58EDDE /* ZMJGanttChart.xcconfig */,
-				E7925DFD542B5B5D5E40A10BC9BF8CD4 /* ZMJGanttChart-dummy.m */,
-				8F53D3BE9CF051DA072123DFA77EB14C /* ZMJGanttChart-prefix.pch */,
-				F2D26CB62F462EA018E0C9E5F825F74D /* ZMJGanttChart-umbrella.h */,
+				AC87346DF88DE923A2E8FF1AB264B80E /* Info.plist */,
+				78B46E356FE25C0DE854BB064652AF1A /* Pods-TJBehaviourAnalysis.modulemap */,
+				F01AE920EF2EDA7754B53F4D18974B9F /* Pods-TJBehaviourAnalysis-acknowledgements.markdown */,
+				7AE89A0399E944D4BDC139143811F2B1 /* Pods-TJBehaviourAnalysis-acknowledgements.plist */,
+				FFC9A0CAE47EBB2915CB691416B4FCA0 /* Pods-TJBehaviourAnalysis-dummy.m */,
+				A2F8F1F9508ACFD650B7F72848CDC5C3 /* Pods-TJBehaviourAnalysis-frameworks.sh */,
+				71E05D7877038D0A4887F7F3027E83ED /* Pods-TJBehaviourAnalysis-resources.sh */,
+				47F769394B7AD9354236D30E5A29B9E2 /* Pods-TJBehaviourAnalysis-umbrella.h */,
+				80D4C5340EE5AA7D4A553533AC64F5CC /* Pods-TJBehaviourAnalysis.debug.xcconfig */,
+				6F48AFCB2510CD233475EE1793300E36 /* Pods-TJBehaviourAnalysis.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ZMJGanttChart";
+			name = "Pods-TJBehaviourAnalysis";
+			path = "Target Support Files/Pods-TJBehaviourAnalysis";
 			sourceTree = "<group>";
 		};
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+		095CA63688537083F65F5A23BF912BCD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+				0E481AED67DBD2B8DCDA1C5B73CBA285 /* Info.plist */,
+				9D5C7ADD3562BDEAFFE36716EFE82745 /* MJExtension.modulemap */,
+				7072150F93DA4DCEFA3E914F2C57DCED /* MJExtension.xcconfig */,
+				584B27A4BF2C076E665774088FECF377 /* MJExtension-dummy.m */,
+				9C088FD0EFB803C3C5D0228E3BB9B9FA /* MJExtension-prefix.pch */,
+				013C4B14012AFD872BF7657A32C66732 /* MJExtension-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		56611DFD5D8B9B5636E410BC5620FFE3 /* Pods */ = {
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E49482DBC0279482E61272831D6D6B75 /* ZMJGanttChart */,
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		59FCABEC902BDCA6B83F8899DAC2CBD7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				74F50F9CAB4C7001A1F1FFC4C4A1EC04 /* Pods-TJBehaviourAnalysis */,
+				049247468F9EE9BD8550147492138745 /* Pods-TJBehaviourAnalysis */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		74F50F9CAB4C7001A1F1FFC4C4A1EC04 /* Pods-TJBehaviourAnalysis */ = {
+		626FCD6D447098C4ABD4962C1E2B68A9 /* ZMJGanttChart */ = {
 			isa = PBXGroup;
 			children = (
-				73F7ECD44296AE26F2295B75AB1B6F5D /* Info.plist */,
-				ACBB93D8A2FBBB7FC9DD6AB283640B58 /* Pods-TJBehaviourAnalysis.modulemap */,
-				47AD3D3F69EE554565DB22E6D32F6D9B /* Pods-TJBehaviourAnalysis-acknowledgements.markdown */,
-				2D1388F87EBEC7A4842C0C978A90BBB1 /* Pods-TJBehaviourAnalysis-acknowledgements.plist */,
-				B9E72A789C469FB870C117EC5F76B474 /* Pods-TJBehaviourAnalysis-dummy.m */,
-				AC645942F3C3135CDB977CF984AF24A3 /* Pods-TJBehaviourAnalysis-frameworks.sh */,
-				BA7B407D4B0C2961AF2F622261DC965D /* Pods-TJBehaviourAnalysis-resources.sh */,
-				6365C9B5B40299D550B2A81077B5C9F4 /* Pods-TJBehaviourAnalysis-umbrella.h */,
-				C9B0ED2D578D12F59977CA580E51D152 /* Pods-TJBehaviourAnalysis.debug.xcconfig */,
-				E5955186757BEE3BA9710F827BA9964F /* Pods-TJBehaviourAnalysis.release.xcconfig */,
+				CB50A5C82B16A18BE29D8C1FC2A33419 /* Address.h */,
+				83B5DBB517E62B7388E4671EF023E871 /* Address.m */,
+				4A38811D6A606F07995B3E730E0FAAF9 /* Borders.h */,
+				912D1DC104D16293B3D2C66AB420E40B /* Borders.m */,
+				459CCBB856CE7111C040E3CA14B95BFC /* CircualrScrolling.h */,
+				052C09A305C47995B5160661D525E7FE /* CircualrScrolling.m */,
+				ED21468C9E51EABD741D438CF3B193DB /* Define.h */,
+				842E3D4226A5EF80406D2AA515D3CC6B /* Gridlines.h */,
+				BCBCB539099C67B3E7B7F8CBBB43D56E /* Gridlines.m */,
+				3A640DF11DFD4FE6BFE537EDFF0ED2A7 /* Location.h */,
+				C09D65AF8706F74DFA7D66CC6C542D6E /* Location.m */,
+				3F504EC0AA324C3BC91A7B3E7758C508 /* NSArray+BinarySearch.h */,
+				AED223BA33D5F76E374F12A344983787 /* NSArray+BinarySearch.m */,
+				21931F934AA06939CB8D1ACFDE8839CB /* NSArray+WBGAddition.h */,
+				DEA13C95B43B79199B05EC4EFA7E3AF7 /* NSArray+WBGAddition.m */,
+				E4BAF86BFC574399BAF019550F3ABB9E /* NSDictionary+WBGAdd.h */,
+				B1EE53D68089CDE6F69C2A6290E0E80F /* NSDictionary+WBGAdd.m */,
+				746A6CA7B811C7F519E84181A3CFA50C /* NSIndexPath+column.h */,
+				4FB134BBF010596527A295448F35FB5C /* NSIndexPath+column.m */,
+				F40977A0E1FFCC85AFC19A1E7398618F /* ReuseQueue.h */,
+				69AF59FC7E34BD615D313778F5E746B1 /* ReuseQueue.m */,
+				70FB3F4455FB9F71D7E589B911A5AA6C /* SpreadsheetView.h */,
+				38D1148FCF3D0CAB24D74C2DA18BB2E4 /* SpreadsheetView.m */,
+				9042BB10B1170C2F32C863E8A5689F8E /* SpreadsheetView+CirclularScrolling.h */,
+				1E569E037FE8929601FFD5C3B7F4A062 /* SpreadsheetView+CirclularScrolling.m */,
+				BF5D2E3FD890CCAF78EAB7F90BEAA23B /* SpreadsheetView+Layout.h */,
+				5DE7ED4BBACB608DD55F7DC3628F813B /* SpreadsheetView+Layout.m */,
+				73E4C1915EFF282CD1C76CC9EB136E54 /* SpreadsheetView+Touches.h */,
+				3A5987895BAABC99E4EEF2F1AB7857C3 /* SpreadsheetView+Touches.m */,
+				F2D0E0B8CBA1EBA88502F0A8F235E89B /* SpreadsheetView+UIScrollView.h */,
+				52AD95D4E9B71FD8442F9EEC7E9B5A1B /* SpreadsheetView+UIScrollView.m */,
+				0318B4A6C2A69AA4E82DDDA99B7C6410 /* SpreadsheetView+UIScrollViewDelegate.h */,
+				32078A11894A1504E271CB1FA1FDF638 /* SpreadsheetView+UIScrollViewDelegate.m */,
+				3945D385C9655F8E02E224353EA9601B /* SpreadsheetView+UISnapshotting.h */,
+				EF0C4694FDC0D6708DFD9E2042D012EE /* SpreadsheetView+UISnapshotting.m */,
+				5987F118AB48A4F4E8E4EDC0F53D2EEC /* SpreadsheetView+UIViewHierarchy.h */,
+				BEB278A85554080F8DE88554D94589C6 /* SpreadsheetView+UIViewHierarchy.m */,
+				DE287E9F05053D047B3C6DC0F2BA215F /* SpreadsheetViewDataSource.h */,
+				A569DFFE1CDA35A1C97AFA4F4EB0C93F /* SpreadsheetViewDelegate.h */,
+				22E04140C2298581975D94FB4AAD0E42 /* ZMJCell.h */,
+				7ABEFB538018A61955642C9E40608870 /* ZMJCell.m */,
+				803BA56CA0091D334BEC8EDDE86016E7 /* ZMJCellRange.h */,
+				E0B1C7B030C7693210A68BBF0E881BA5 /* ZMJCellRange.m */,
+				EB4001F4F03781EC8D4FA625CE23779E /* ZMJGanttChart.h */,
+				4C4E145AF1C54DA4091A1705E791D8AF /* ZMJLayoutEngine.h */,
+				C52073DB15193DEB10A9C7622EB15BBA /* ZMJLayoutEngine.m */,
+				11BA1826DAF48EC9DB0E6BF91774D6E9 /* ZMJScrollView.h */,
+				D070EA06DF70C6E83B6EAA2663DCD01D /* ZMJScrollView.m */,
+				74A822F771C7900D182C5EE58E75A91C /* Support Files */,
 			);
-			name = "Pods-TJBehaviourAnalysis";
-			path = "Target Support Files/Pods-TJBehaviourAnalysis";
+			name = ZMJGanttChart;
+			path = ZMJGanttChart;
+			sourceTree = "<group>";
+		};
+		6CBDA3EE9EEC6EC29D0E03D03403C76E /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4AE8902277950180553B26A02A5AD061 /* MJExtension.h */,
+				7605E9834ECD19A9E197784489D671CB /* MJExtensionConst.h */,
+				9ECB6102C690EA74A7F2482276DF5A3D /* MJExtensionConst.m */,
+				D418EDE12FC64D68615E48FE18D9C730 /* MJFoundation.h */,
+				BBE2378FEB9F480765710EE49154E394 /* MJFoundation.m */,
+				3AC2B93C5C133610B6E2E7752D235D24 /* MJProperty.h */,
+				9F3F7298F407E705FBF1826939F020FB /* MJProperty.m */,
+				AD1BB731218BE6537583484DD00222F1 /* MJPropertyKey.h */,
+				9A44C8EB847C8F9363283A30FC996260 /* MJPropertyKey.m */,
+				22A174EB6926AB4F109384C6FE9C72D8 /* MJPropertyType.h */,
+				6A649851E69C73D6E5AFCB7B338B8BE3 /* MJPropertyType.m */,
+				0CE539ACE8CF2BC640C33513A496C6F7 /* NSObject+MJClass.h */,
+				0EFF645553A025A072E23E8F2A19C5D0 /* NSObject+MJClass.m */,
+				CDF3B82145D3C777E13EA55BAE11B4B0 /* NSObject+MJCoding.h */,
+				A501C3286FE54F66AE1A90FD00A41F00 /* NSObject+MJCoding.m */,
+				A467BF88CADB1B48132B9E46888EB38D /* NSObject+MJKeyValue.h */,
+				C89DD255233A79D4365901732A4766AA /* NSObject+MJKeyValue.m */,
+				07FB14A2A4806D6C6DBDD1118EB4C1E2 /* NSObject+MJProperty.h */,
+				99469CE7AA8ED578B093E291E679EED9 /* NSObject+MJProperty.m */,
+				6143E0B22177E644AC773ADAA46407E3 /* NSString+MJExtension.h */,
+				05E2FB97A241DB0EF0834199530B99DD /* NSString+MJExtension.m */,
+				095CA63688537083F65F5A23BF912BCD /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		74A822F771C7900D182C5EE58E75A91C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99207EB72854F962EF1F2331B0082F6E /* Info.plist */,
+				236368E1443C7CE53F5F42E701D7C57F /* ZMJGanttChart.modulemap */,
+				B96710326EA79C49115B8A07F041193C /* ZMJGanttChart.xcconfig */,
+				C96FEAC7A32A05976074F8B5D8E15884 /* ZMJGanttChart-dummy.m */,
+				B348A63D56AAB4354570A58C7D41F030 /* ZMJGanttChart-prefix.pch */,
+				4ED37FF9E04CC895DFBF576B6F4B4FFF /* ZMJGanttChart-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZMJGanttChart";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -237,74 +397,27 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				56611DFD5D8B9B5636E410BC5620FFE3 /* Pods */,
-				FA59AF18C9DE6A5A5C6BBAD0542EDEB1 /* Products */,
+				C1F75404AE8D6B82A784F3D841F9638E /* Pods */,
+				FF9B6E6BE98DB531786917536EA78635 /* Products */,
 				59FCABEC902BDCA6B83F8899DAC2CBD7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E49482DBC0279482E61272831D6D6B75 /* ZMJGanttChart */ = {
+		C1F75404AE8D6B82A784F3D841F9638E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2058C1A65C8F45EA60658D0818C4549 /* Address.h */,
-				E342F8DD685E455B8C50B6B53A07D954 /* Address.m */,
-				A5C98602E764DA0CEA3AE0575034867D /* Borders.h */,
-				EE6AF997EFA1EA9D67CD19CD3B8B594E /* Borders.m */,
-				21F3B7285CE97BD935335F0549FC70C6 /* CircualrScrolling.h */,
-				1B31F6CB225285D37ABC7DA4F61D9681 /* CircualrScrolling.m */,
-				9959BF7DAD01B451C4F4F78EDFF1CC1A /* Define.h */,
-				F3782C8668B44B0C3287B366537C064C /* Gridlines.h */,
-				D96366442060BF76FFF7A3F28C9FF0FA /* Gridlines.m */,
-				6C3078AE0EA899DD44597771729A27C3 /* Location.h */,
-				F0EDD78146146D9D735F7D68F6384E78 /* Location.m */,
-				434A0905D1CFDCDC63C5BA47CA6C0D3A /* NSArray+BinarySearch.h */,
-				5049F9561DB98EDA964A481E7B6CE5A3 /* NSArray+BinarySearch.m */,
-				042517232CE7178AE116A6CAF85FB9E0 /* NSArray+WBGAddition.h */,
-				4017858E3AE9DFECBF4056828E03EEFF /* NSArray+WBGAddition.m */,
-				379FCD232CFAF2CDC8714827019C58C1 /* NSDictionary+WBGAdd.h */,
-				29CD1B8539F434AE69FCAC6AE37143D2 /* NSDictionary+WBGAdd.m */,
-				2202BC7FF744F5279394CB185B05A8B8 /* NSIndexPath+column.h */,
-				ECA7A755FFF781E09FE36C7F643DA996 /* NSIndexPath+column.m */,
-				D8CCEA9E5770543441770CA60DDC7A8A /* ReuseQueue.h */,
-				2623C29B3390517417F6B5994DDC11A8 /* ReuseQueue.m */,
-				FFFA72FC0959B27B59D352C9F4773A2B /* SpreadsheetView.h */,
-				B42F3278DD16DE12CBA6CEF794BA3A56 /* SpreadsheetView.m */,
-				13F65B040E3F4E46581C1F4ABF722C70 /* SpreadsheetView+CirclularScrolling.h */,
-				9BE3DD4228567DBFFF5E71E198EA8938 /* SpreadsheetView+CirclularScrolling.m */,
-				3266BB034F3EAE0EA6F70D8CDD0C7928 /* SpreadsheetView+Layout.h */,
-				6F9D2FA125646A4D9CA72933107F917E /* SpreadsheetView+Layout.m */,
-				7C5D63E528E6158363F12A05512CE3A7 /* SpreadsheetView+Touches.h */,
-				E3CD4830A027E951E0A0B56405A1957A /* SpreadsheetView+Touches.m */,
-				39D49E570D19BFFC07B4FD3C829959F2 /* SpreadsheetView+UIScrollView.h */,
-				7615038B8F683A024A3AE41257918BC2 /* SpreadsheetView+UIScrollView.m */,
-				D95E3752A032F9C983AD42DA8EDC15AA /* SpreadsheetView+UIScrollViewDelegate.h */,
-				565060798C6AE28CF60E7ECC7AAE10EC /* SpreadsheetView+UIScrollViewDelegate.m */,
-				6A7A751B251EA377A9144B176413B215 /* SpreadsheetView+UISnapshotting.h */,
-				6D65D330F2BBD6AC107F7D04DD4C0EDB /* SpreadsheetView+UISnapshotting.m */,
-				5D27A0DE0B5629C41F863F677AA2FF30 /* SpreadsheetView+UIViewHierarchy.h */,
-				A7D566940DFB95991CE15D7DD4E6741D /* SpreadsheetView+UIViewHierarchy.m */,
-				8FFEEA43FE41893D9A2FC6725B9381A5 /* SpreadsheetViewDataSource.h */,
-				EBD29484502EF9D9F78988B1F4F2F7E4 /* SpreadsheetViewDelegate.h */,
-				B350D655F19BB1E9B1AB040D3C156226 /* ZMJCell.h */,
-				4F78040F6E6BFBF1047AB1A969B127FB /* ZMJCell.m */,
-				E96EA65F853C750630EFFF2EA85AB006 /* ZMJCellRange.h */,
-				A0EF41F1DA7114EDB3C976AC98E9A870 /* ZMJCellRange.m */,
-				9863A52B678E31E592DDF83AF8F0C8A8 /* ZMJGanttChart.h */,
-				FB24B36F3E22547B6DC1C24FFB27C5F9 /* ZMJLayoutEngine.h */,
-				55C75325A3C3009603A8E55853FFC854 /* ZMJLayoutEngine.m */,
-				1291F21D79CBEA1891644922EDA7C904 /* ZMJScrollView.h */,
-				775B411E239F6634F4E85FC23B6F82B3 /* ZMJScrollView.m */,
-				0C90E3B2A230543C84C071485BAF43E3 /* Support Files */,
+				6CBDA3EE9EEC6EC29D0E03D03403C76E /* MJExtension */,
+				626FCD6D447098C4ABD4962C1E2B68A9 /* ZMJGanttChart */,
 			);
-			name = ZMJGanttChart;
-			path = ZMJGanttChart;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		FA59AF18C9DE6A5A5C6BBAD0542EDEB1 /* Products */ = {
+		FF9B6E6BE98DB531786917536EA78635 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C35D6F89B4DBA6CBEB904E9321B6800C /* Pods_TJBehaviourAnalysis.framework */,
-				A3974E0AC79713130ADBC4D7CD53FC2F /* ZMJGanttChart.framework */,
+				6E4F2258A94DAC34844BB3EFA00FB2FB /* MJExtension.framework */,
+				4A4A6F547C9F6D15C139DD5823FC928B /* Pods_TJBehaviourAnalysis.framework */,
+				F02E18E1F2052D44F6A2701F246CC090 /* ZMJGanttChart.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,58 +425,113 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		719D84EDD9CFA7B6E7557FF33B484706 /* Headers */ = {
+		150A9418890DF0C6B4CD027697F8C82A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CA3ADC98F11ACAAE6B650666CA3A50 /* Address.h in Headers */,
-				40F86DE33577E0C44727084BE8C247FE /* Borders.h in Headers */,
-				2171E7DB7F92993EF3A7FCB7B8AF4D5B /* CircualrScrolling.h in Headers */,
-				E3DF7DFDA4B29F842BEF7B3F46570E33 /* Define.h in Headers */,
-				50179DDF26E3921265D4EE1F204D388B /* Gridlines.h in Headers */,
-				94112B078D86887EA9BFD9BE9C3A416D /* Location.h in Headers */,
-				ABC2A868CCEB23E3F65930A9CE0856AD /* NSArray+BinarySearch.h in Headers */,
-				B0095A5D69E660FDDD4D64331959BA90 /* NSArray+WBGAddition.h in Headers */,
-				778DC9D8F77A22FBE14858083033E45C /* NSDictionary+WBGAdd.h in Headers */,
-				73402518919F761DBE450B0280610DF6 /* NSIndexPath+column.h in Headers */,
-				F8CB535B4FF99C64D9630E0B4A3D3DB4 /* ReuseQueue.h in Headers */,
-				B348B981711703F556594543834626CE /* SpreadsheetView+CirclularScrolling.h in Headers */,
-				52FB85A8D88E54200EFB7C0BBA3E6469 /* SpreadsheetView+Layout.h in Headers */,
-				283B03B611C37835F518E60B519CA3E5 /* SpreadsheetView+Touches.h in Headers */,
-				78DBD29A3FED99F8D7F96BA8BDF960BC /* SpreadsheetView+UIScrollView.h in Headers */,
-				6DAF82D1176F661B16DDA2090D70E8B6 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */,
-				4948244C1DB1508170580B7D79B7FD35 /* SpreadsheetView+UISnapshotting.h in Headers */,
-				E7C4490BC81EEC1B814EA35046D4D3B1 /* SpreadsheetView+UIViewHierarchy.h in Headers */,
-				F3240BFD55ED9847C61ED2364F36E435 /* SpreadsheetView.h in Headers */,
-				32C2270858F492014318AADC9C133A5C /* SpreadsheetViewDataSource.h in Headers */,
-				F99DA56CB224681C3DFFF3965F49B6FE /* SpreadsheetViewDelegate.h in Headers */,
-				8DABEAECE0B6D74399D758F3A14DDE42 /* ZMJCell.h in Headers */,
-				ECA155081E55D0303E9980CB01A4DD46 /* ZMJCellRange.h in Headers */,
-				5CF66F41D310B38C55A3FE101BD07279 /* ZMJGanttChart-umbrella.h in Headers */,
-				3E02CE97BF21672B3BFC92593941A69D /* ZMJGanttChart.h in Headers */,
-				FB4B5914079C76F995558BEA464ACF3F /* ZMJLayoutEngine.h in Headers */,
-				3B5FAC4A6A7B26352033F2C2061AE3DC /* ZMJScrollView.h in Headers */,
+				AB5D47A3ECF05C0E61A765BA5D6BE10F /* Address.h in Headers */,
+				DF7ED897A20D836CF6F7CCA4F6B821D1 /* Borders.h in Headers */,
+				BF5D1F3F328F92B94594C721E8223E50 /* CircualrScrolling.h in Headers */,
+				9F3AB4C27618EC2005B512002A3141B8 /* Define.h in Headers */,
+				3DC50E20C6ADFF9EF072A2B6CDB89604 /* Gridlines.h in Headers */,
+				D5DC976E07E4990B729C3B3040CA1934 /* Location.h in Headers */,
+				D432D34F8C431716598E0523E8986674 /* NSArray+BinarySearch.h in Headers */,
+				356134916445FADDD9E4917BD068B64A /* NSArray+WBGAddition.h in Headers */,
+				EF2F2D2074E9E5C70FE63BC922AA61BF /* NSDictionary+WBGAdd.h in Headers */,
+				29BDDD48724C8CCDD9D9774714940757 /* NSIndexPath+column.h in Headers */,
+				DED5CD8D1D5DE09F7D84C79FC156334B /* ReuseQueue.h in Headers */,
+				0B87E3A220C18A7449294BD2E7CDB51F /* SpreadsheetView+CirclularScrolling.h in Headers */,
+				A8CBEA2F5D9A6250847AD231BBD0953E /* SpreadsheetView+Layout.h in Headers */,
+				6938F70FF56E37645B51CDB5D1689716 /* SpreadsheetView+Touches.h in Headers */,
+				F2868057214D746F4FC857263172FFE7 /* SpreadsheetView+UIScrollView.h in Headers */,
+				11697B7749D2EB7EB2BF20E9379888A8 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */,
+				0C380E06C333E15F3B60AD5255E67D63 /* SpreadsheetView+UISnapshotting.h in Headers */,
+				F559A28AD56A0CE6A72C0BA171506679 /* SpreadsheetView+UIViewHierarchy.h in Headers */,
+				BE3F385DBFFECB48D553E92BA2F398C7 /* SpreadsheetView.h in Headers */,
+				ED0317D3AF3B9C6FC1003B1A47E9DEE6 /* SpreadsheetViewDataSource.h in Headers */,
+				92097DED9E7B5412B36DE1D89559794A /* SpreadsheetViewDelegate.h in Headers */,
+				58F704DD768B2F10712ECDA01B9A4000 /* ZMJCell.h in Headers */,
+				61F9CECA2CF70EE438F2EDF6FF8DDF35 /* ZMJCellRange.h in Headers */,
+				FF509C25D1002536C471EF09EA3BC843 /* ZMJGanttChart-umbrella.h in Headers */,
+				BC9855EF335178C49EDBB032ED62F625 /* ZMJGanttChart.h in Headers */,
+				55D3D9759863DF3C8AD73148C1F86030 /* ZMJLayoutEngine.h in Headers */,
+				87B4B2616BFE5DC1166727CD66F4090A /* ZMJScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAC07A24117929EA4D9D79F17EDA22D5 /* Headers */ = {
+		634AB5376E4A69D0B3851143536520FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A308E970F6192A0721E1D2F0BC3627D5 /* Pods-TJBehaviourAnalysis-umbrella.h in Headers */,
+				65C2D50B587B49E0226361ACA4D250E7 /* Pods-TJBehaviourAnalysis-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC8EBF9CF85747F8988979882C90A62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75E2AE2D12480AE889D1D3B7A654FAA /* MJExtension-umbrella.h in Headers */,
+				6DA14D61DB56E00FF18F2F75C51454AE /* MJExtension.h in Headers */,
+				1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */,
+				E5FCA2ABBE2C5EF75F004103BC26D472 /* MJFoundation.h in Headers */,
+				58EFF22FEFA78894F9F808799F961BD5 /* MJProperty.h in Headers */,
+				A61CBA1B7EC469C602F47186539239E0 /* MJPropertyKey.h in Headers */,
+				5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */,
+				11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */,
+				64298620A2F1EFAB12386F3861E08D40 /* NSObject+MJCoding.h in Headers */,
+				B7B68FDABB146B87FA3C9E987D2014DE /* NSObject+MJKeyValue.h in Headers */,
+				383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */,
+				5BD2A9D0D752792C18F1E7F6CDBEB0FA /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3CE7914C1BE9BF82E4E57826D6CCEAF7 /* ZMJGanttChart */ = {
+		52F5F920C3B95A7915108728A059F295 /* Pods-TJBehaviourAnalysis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43829953EDF5507D9D7EE71A4DD7DF09 /* Build configuration list for PBXNativeTarget "ZMJGanttChart" */;
+			buildConfigurationList = D3CB2A5CED23CABAFDABBED9A2E82CDD /* Build configuration list for PBXNativeTarget "Pods-TJBehaviourAnalysis" */;
 			buildPhases = (
-				7B9CDA3ED4CA57CEDBB74C38206163F2 /* Sources */,
-				C26042358BDA1D87AF4D11D3BBDBD6C3 /* Frameworks */,
-				719D84EDD9CFA7B6E7557FF33B484706 /* Headers */,
+				182EBB5173EA3EFEFF86B0A2080EED7F /* Sources */,
+				2DEF631C49ED31E1DF185ED221D57571 /* Frameworks */,
+				634AB5376E4A69D0B3851143536520FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BE734C6CBB441E49FF388F1B1CB2CC /* PBXTargetDependency */,
+				CB9CAF509943E73661892A08FEC20031 /* PBXTargetDependency */,
+			);
+			name = "Pods-TJBehaviourAnalysis";
+			productName = "Pods-TJBehaviourAnalysis";
+			productReference = 4A4A6F547C9F6D15C139DD5823FC928B /* Pods_TJBehaviourAnalysis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AA17C95E926B760FD08E0B487DAEFA2 /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06564E4F5A40A02610AFA51432CB9187 /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				4962C9C292AEFFE5F9C38D2D21A02B48 /* Sources */,
+				01F5D8AA0DC41A81CA94CB320713D684 /* Frameworks */,
+				EBC8EBF9CF85747F8988979882C90A62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 6E4F2258A94DAC34844BB3EFA00FB2FB /* MJExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E94FF2EDF3B5DA4D8709BF5635EB7733 /* ZMJGanttChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435B8436BFA1F33A01BFE35ABBA2D889 /* Build configuration list for PBXNativeTarget "ZMJGanttChart" */;
+			buildPhases = (
+				83BD31DD3B7D13DF1F8D414F91FCE1E8 /* Sources */,
+				649A3D05106541733FDA36C0BFA0F41D /* Frameworks */,
+				150A9418890DF0C6B4CD027697F8C82A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -371,25 +539,7 @@
 			);
 			name = ZMJGanttChart;
 			productName = ZMJGanttChart;
-			productReference = A3974E0AC79713130ADBC4D7CD53FC2F /* ZMJGanttChart.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8C86AFCD63BA23C18BED3103EAFAE4A6 /* Pods-TJBehaviourAnalysis */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 86FBF55F583278653BABBE462A8C0FA2 /* Build configuration list for PBXNativeTarget "Pods-TJBehaviourAnalysis" */;
-			buildPhases = (
-				6232CDCD91D955B194ADD013C056D9C0 /* Sources */,
-				D51D48B9760F0245DF52FF4FAC0E5C1B /* Frameworks */,
-				BAC07A24117929EA4D9D79F17EDA22D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				810A79E43227FE662974D60A5278B3D0 /* PBXTargetDependency */,
-			);
-			name = "Pods-TJBehaviourAnalysis";
-			productName = "Pods-TJBehaviourAnalysis";
-			productReference = C35D6F89B4DBA6CBEB904E9321B6800C /* Pods_TJBehaviourAnalysis.framework */;
+			productReference = F02E18E1F2052D44F6A2701F246CC090 /* ZMJGanttChart.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -398,8 +548,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -409,68 +559,93 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FA59AF18C9DE6A5A5C6BBAD0542EDEB1 /* Products */;
+			productRefGroup = FF9B6E6BE98DB531786917536EA78635 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C86AFCD63BA23C18BED3103EAFAE4A6 /* Pods-TJBehaviourAnalysis */,
-				3CE7914C1BE9BF82E4E57826D6CCEAF7 /* ZMJGanttChart */,
+				5AA17C95E926B760FD08E0B487DAEFA2 /* MJExtension */,
+				52F5F920C3B95A7915108728A059F295 /* Pods-TJBehaviourAnalysis */,
+				E94FF2EDF3B5DA4D8709BF5635EB7733 /* ZMJGanttChart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6232CDCD91D955B194ADD013C056D9C0 /* Sources */ = {
+		182EBB5173EA3EFEFF86B0A2080EED7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16277ED3FF631F3A755383B0BBA6BA73 /* Pods-TJBehaviourAnalysis-dummy.m in Sources */,
+				F8E709735B2F366E4695C0C3A3BFA4CD /* Pods-TJBehaviourAnalysis-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B9CDA3ED4CA57CEDBB74C38206163F2 /* Sources */ = {
+		4962C9C292AEFFE5F9C38D2D21A02B48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA46D08D37A241554D4D5270451E367 /* Address.m in Sources */,
-				9A580A068EA66EACB543F5C2AB2DCBFC /* Borders.m in Sources */,
-				A85CE671C94ACB7323BDC992684131FE /* CircualrScrolling.m in Sources */,
-				11246C3FE74DCC8BA41AF46DB4335A66 /* Gridlines.m in Sources */,
-				7710CB6F93E0ED8B0019E72B244318B0 /* Location.m in Sources */,
-				3F1A0AC423409F7E556A2FCFD497756E /* NSArray+BinarySearch.m in Sources */,
-				5216C259B497109199A484249D63391A /* NSArray+WBGAddition.m in Sources */,
-				372195A0237FC098307F3678768788CB /* NSDictionary+WBGAdd.m in Sources */,
-				FBEEF9F4CF2CDE03B56D362B4AF5154F /* NSIndexPath+column.m in Sources */,
-				AF5939976C44F1551451975404C5537A /* ReuseQueue.m in Sources */,
-				888A585FE892B15B6CD3300B07DF6734 /* SpreadsheetView+CirclularScrolling.m in Sources */,
-				06A974889A92FA9FBBEBE35D5565225A /* SpreadsheetView+Layout.m in Sources */,
-				8D4510E8AB04448D6DD61E2F0C5F6FFA /* SpreadsheetView+Touches.m in Sources */,
-				CC67812C6023C554F5990A072BC49A7E /* SpreadsheetView+UIScrollView.m in Sources */,
-				58D3154EE94AAC1DF5595490988BCDA2 /* SpreadsheetView+UIScrollViewDelegate.m in Sources */,
-				57E7850C620E8237BD8D5D4D5752C94E /* SpreadsheetView+UISnapshotting.m in Sources */,
-				94FA500419B2CEF46DF7B2F692035637 /* SpreadsheetView+UIViewHierarchy.m in Sources */,
-				9048769B481B1AA3B0828B6C2615FE89 /* SpreadsheetView.m in Sources */,
-				EDDBAF4B753E01FA5C0FE84DA022B51A /* ZMJCell.m in Sources */,
-				1B6C19F7EBB5A4E8663E57EF65DFFF92 /* ZMJCellRange.m in Sources */,
-				6417D650F05662E0EA9E3FDEA6A607D7 /* ZMJGanttChart-dummy.m in Sources */,
-				4F5F11C4697557C0B19BA6DCF704788F /* ZMJLayoutEngine.m in Sources */,
-				6A6503E0E5ADA1B522921950362D7B07 /* ZMJScrollView.m in Sources */,
+				59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */,
+				CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */,
+				F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */,
+				E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */,
+				0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */,
+				094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */,
+				7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */,
+				8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */,
+				0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */,
+				068F6DF04EF0371EEC29C6787B63910B /* NSObject+MJProperty.m in Sources */,
+				1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BD31DD3B7D13DF1F8D414F91FCE1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D549D21374E88BFE3A3A794AE62C27 /* Address.m in Sources */,
+				A07DC6E773A5CC2E49641573397BDB92 /* Borders.m in Sources */,
+				6D3FF8335A969D70B7D49FAD0E1698E7 /* CircualrScrolling.m in Sources */,
+				95359F95C1B4BAFEAB22B2BBFE4D3B73 /* Gridlines.m in Sources */,
+				57D687D42BCA06B440233EFD223AC60E /* Location.m in Sources */,
+				EC4529D9C4559C22BF9DDB9D48364585 /* NSArray+BinarySearch.m in Sources */,
+				0BD6A150AECBD6E845EA42432A7680C8 /* NSArray+WBGAddition.m in Sources */,
+				AC17B2B48B6A83FEB2610BC605A0F44A /* NSDictionary+WBGAdd.m in Sources */,
+				171B3317805FE0A9EAD595CA5ACDB2BA /* NSIndexPath+column.m in Sources */,
+				8949EEE6D7B719D8E7A476CF5247C705 /* ReuseQueue.m in Sources */,
+				336974A27AA017326B5888F2C6652A48 /* SpreadsheetView+CirclularScrolling.m in Sources */,
+				015FE20F53A8DF11E256F3C46AC7F9DD /* SpreadsheetView+Layout.m in Sources */,
+				3F2D186598F405087F1B6747D9DBDF89 /* SpreadsheetView+Touches.m in Sources */,
+				7224F211990837A15E0CD7F7967288FF /* SpreadsheetView+UIScrollView.m in Sources */,
+				C22D1FDDCE8E14F6BE63997B8DD265DE /* SpreadsheetView+UIScrollViewDelegate.m in Sources */,
+				E80C4B50539FA8A299A593C5DBACC3CE /* SpreadsheetView+UISnapshotting.m in Sources */,
+				D00CEBD032C9898DD7A59A9E79134643 /* SpreadsheetView+UIViewHierarchy.m in Sources */,
+				7F0345AEFDABE58A589D4A953609B4F4 /* SpreadsheetView.m in Sources */,
+				A62669E8887420E9EEE0E050E7285328 /* ZMJCell.m in Sources */,
+				48CA53A59E0CDA68624159D49D7FF3A0 /* ZMJCellRange.m in Sources */,
+				2ED630136233D32B35E56DF2685AD74F /* ZMJGanttChart-dummy.m in Sources */,
+				4FA95E992DF85605CBBA286D47A9A7A0 /* ZMJLayoutEngine.m in Sources */,
+				8CCA70007892AE41B6CEDDAE56AB27AF /* ZMJScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		810A79E43227FE662974D60A5278B3D0 /* PBXTargetDependency */ = {
+		57BE734C6CBB441E49FF388F1B1CB2CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 5AA17C95E926B760FD08E0B487DAEFA2 /* MJExtension */;
+			targetProxy = 63E1F9B15B2A96B9A9D55051C2811051 /* PBXContainerItemProxy */;
+		};
+		CB9CAF509943E73661892A08FEC20031 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZMJGanttChart;
-			target = 3CE7914C1BE9BF82E4E57826D6CCEAF7 /* ZMJGanttChart */;
-			targetProxy = 45380A91303327E16908F2112226268A /* PBXContainerItemProxy */;
+			target = E94FF2EDF3B5DA4D8709BF5635EB7733 /* ZMJGanttChart */;
+			targetProxy = ACC4C0F1C3A192A47A84E579AD0A35FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		27A052B71AFA5B1A83AB880CC7E603BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -480,12 +655,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -493,7 +666,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -502,7 +674,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -527,15 +698,15 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		62D8BD04C3F7EAC7F928650E3F506C90 /* Debug */ = {
+		34F7D7F825CF2415F5F22002BF713579 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6892F3390E560A12FA87610F7E58EDDE /* ZMJGanttChart.xcconfig */;
+			baseConfigurationReference = B96710326EA79C49115B8A07F041193C /* ZMJGanttChart.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -552,22 +723,20 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZMJGanttChart/ZMJGanttChart.modulemap";
-				PRODUCT_MODULE_NAME = ZMJGanttChart;
 				PRODUCT_NAME = ZMJGanttChart;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		83159503D8F48A1C7E04117E8F983877 /* Release */ = {
+		6A53E3FE5E8F335BFC3A167C6206E183 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5955186757BEE3BA9710F827BA9964F /* Pods-TJBehaviourAnalysis.release.xcconfig */;
+			baseConfigurationReference = 6F48AFCB2510CD233475EE1793300E36 /* Pods-TJBehaviourAnalysis.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -587,7 +756,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Pods_TJBehaviourAnalysis;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -597,9 +766,9 @@
 			};
 			name = Release;
 		};
-		B25215A11DAA44F069B667A88F930EE0 /* Release */ = {
+		9717621B43C6870195100CC6441B53D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6892F3390E560A12FA87610F7E58EDDE /* ZMJGanttChart.xcconfig */;
+			baseConfigurationReference = 7072150F93DA4DCEFA3E914F2C57DCED /* MJExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -610,17 +779,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZMJGanttChart/ZMJGanttChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZMJGanttChart/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZMJGanttChart/ZMJGanttChart.modulemap";
-				PRODUCT_MODULE_NAME = ZMJGanttChart;
-				PRODUCT_NAME = ZMJGanttChart;
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_NAME = MJExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B77CF8B592DE8A20138210E8B80E34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7072150F93DA4DCEFA3E914F2C57DCED /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -628,11 +823,10 @@
 			};
 			name = Release;
 		};
-		B3B67351FFFFC17347C28900E6DDEBD4 /* Debug */ = {
+		9EDD8BD587FEC60F6557B721F15EE517 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9B0ED2D578D12F59977CA580E51D152 /* Pods-TJBehaviourAnalysis.debug.xcconfig */;
+			baseConfigurationReference = 80D4C5340EE5AA7D4A553533AC64F5CC /* Pods-TJBehaviourAnalysis.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -652,7 +846,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Pods_TJBehaviourAnalysis;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -661,7 +855,7 @@
 			};
 			name = Debug;
 		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -671,12 +865,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -684,7 +876,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -693,7 +884,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -714,37 +904,75 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
+		F3B342F7FE53B9A047A2CF8EBDEE9DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96710326EA79C49115B8A07F041193C /* ZMJGanttChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMJGanttChart/ZMJGanttChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMJGanttChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZMJGanttChart/ZMJGanttChart.modulemap";
+				PRODUCT_NAME = ZMJGanttChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06564E4F5A40A02610AFA51432CB9187 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9717621B43C6870195100CC6441B53D5 /* Debug */,
+				9B77CF8B592DE8A20138210E8B80E34B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				27A052B71AFA5B1A83AB880CC7E603BC /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43829953EDF5507D9D7EE71A4DD7DF09 /* Build configuration list for PBXNativeTarget "ZMJGanttChart" */ = {
+		435B8436BFA1F33A01BFE35ABBA2D889 /* Build configuration list for PBXNativeTarget "ZMJGanttChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62D8BD04C3F7EAC7F928650E3F506C90 /* Debug */,
-				B25215A11DAA44F069B667A88F930EE0 /* Release */,
+				F3B342F7FE53B9A047A2CF8EBDEE9DBB /* Debug */,
+				34F7D7F825CF2415F5F22002BF713579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86FBF55F583278653BABBE462A8C0FA2 /* Build configuration list for PBXNativeTarget "Pods-TJBehaviourAnalysis" */ = {
+		D3CB2A5CED23CABAFDABBED9A2E82CDD /* Build configuration list for PBXNativeTarget "Pods-TJBehaviourAnalysis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3B67351FFFFC17347C28900E6DDEBD4 /* Debug */,
-				83159503D8F48A1C7E04117E8F983877 /* Release */,
+				9EDD8BD587FEC60F6557B721F15EE517 /* Debug */,
+				6A53E3FE5E8F335BFC3A167C6206E183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

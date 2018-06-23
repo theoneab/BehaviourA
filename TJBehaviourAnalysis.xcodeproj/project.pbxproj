@@ -200,6 +200,7 @@
 		6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */; };
 		9E75345320DDF84200E0C144 /* ZMJCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345020DDF84200E0C144 /* ZMJCells.m */; };
 		9E75345420DDF84200E0C144 /* PageStataicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75345220DDF84200E0C144 /* PageStataicsController.m */; };
+		B7BE552720DE164100DDDBB9 /* BehaviourData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE552520DE164100DDDBB9 /* BehaviourData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -459,6 +460,8 @@
 		9E75345020DDF84200E0C144 /* ZMJCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMJCells.m; sourceTree = "<group>"; };
 		9E75345120DDF84200E0C144 /* ZMJCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMJCells.h; sourceTree = "<group>"; };
 		9E75345220DDF84200E0C144 /* PageStataicsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageStataicsController.m; sourceTree = "<group>"; };
+		B7BE552520DE164100DDDBB9 /* BehaviourData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BehaviourData.m; sourceTree = "<group>"; };
+		B7BE552620DE164100DDDBB9 /* BehaviourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaviourData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -859,6 +862,7 @@
 		6F9DCF381D7842FF007CEAD2 /* DemoOptions */ = {
 			isa = PBXGroup;
 			children = (
+				B7BE552420DE164100DDDBB9 /* behaviour */,
 				6F743AD81D7C6C2B00C94967 /* PYBarDemoOptions.h */,
 				6F743AD91D7C6C2B00C94967 /* PYBarDemoOptions.m */,
 				6F65DC121D820E2200950EC5 /* PYCandlestickDemoOptions.h */,
@@ -908,6 +912,15 @@
 			path = Excell;
 			sourceTree = "<group>";
 		};
+		B7BE552420DE164100DDDBB9 /* behaviour */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE552620DE164100DDDBB9 /* BehaviourData.h */,
+				B7BE552520DE164100DDDBB9 /* BehaviourData.m */,
+			);
+			path = behaviour;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -920,6 +933,7 @@
 				6C4216731B98E310002D4B7A /* Frameworks */,
 				6C4216741B98E310002D4B7A /* Resources */,
 				239DA69C7C79A7987A27208D /* [CP] Embed Pods Frameworks */,
+				59DD15E403390E1CB0E92E59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -977,6 +991,7 @@
 				TargetAttributes = {
 					6C4216751B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Q6ECRP6F64;
 					};
 					6C42168E1B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
@@ -1083,6 +1098,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TJBehaviourAnalysis/Pods-TJBehaviourAnalysis-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		59DD15E403390E1CB0E92E59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TJBehaviourAnalysis/Pods-TJBehaviourAnalysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D44FC2A8C0E8AB8AF20B61C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1098,7 +1128,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1164,6 +1194,7 @@
 				6F9DCF191D7841D6007CEAD2 /* LineDemoController.m in Sources */,
 				6F4D58E01D4FE34F00246943 /* PYAxisTick.m in Sources */,
 				6F4D59091D4FE34F00246943 /* PYTreeMapSeries.m in Sources */,
+				B7BE552720DE164100DDDBB9 /* BehaviourData.m in Sources */,
 				6F743AE21D7D8ADA00C94967 /* PYPieDemoOptions.m in Sources */,
 				6F13257E1D93D0650006F114 /* MultiEcharts2Controller.m in Sources */,
 				6F4D59111D4FE34F00246943 /* PYZoomEchartsView.m in Sources */,
@@ -1407,6 +1438,7 @@
 			baseConfigurationReference = 1605381286955E0A91977743 /* Pods-TJBehaviourAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6ECRP6F64;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1422,6 +1454,7 @@
 			baseConfigurationReference = 80AD0D35A1FF1EBF3721DFD4 /* Pods-TJBehaviourAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6ECRP6F64;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
